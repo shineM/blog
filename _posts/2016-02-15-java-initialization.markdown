@@ -16,7 +16,7 @@ class Sub extends Super {
 }
 class Test {
 	public static void main(String[] args) {
-		System.out.println(Sub.taxi);
+	    System.out.println(Sub.taxi);
 	}
 }
 {% endhighlight %}
@@ -34,12 +34,12 @@ interface K extends J {
 }
 class Test {
 	public static void main(String[] args) {
-		System.out.println(J.i);
-		System.out.println(K.j);
+	    System.out.println(J.i);
+	    System.out.println(K.j);
 	}
 	static int out(String s, int i) {
-		System.out.println(s + "=" + i);
-		return i;
+	    System.out.println(s + "=" + i);
+	    return i;
 	}
 }
 
@@ -52,11 +52,13 @@ jj=4
 3
   上述例子中J.i是一个常量，不会引起I的初始化，而K.j不是一个常量，需要J的初始化，但是不会引起父类接口I的初始化，也不会引起K自身的初始化。
   可以发现，尽管有些类和接口被引用了，却不会导致初始化动作，还有一个常见的例子就是 Object o = null;对象o也未被初始化。下面总结一下所有引起类和接口T初始化的条件，
-* 类T的一个实例被创建（new）
-* 类T的静态方法被调用
-* T的静态变量被引用或赋值
-* T的子类被初始化
-* 类T包含main方法
+<ul>
+<li> 类T的一个实例被创建（new）	</li>
+<li> 类T的静态方法被调用</li>
+<li> T的静态变量被引用或赋值</li>
+<li> T的子类被初始化</li>
+<li> 类T包含main方法</li>
+</ul>
 详细参考oracle java官方文档：[http://docs.oracle.com/javase/specs/jls/se7/html/jls-12.html#jls-12.5][1]
 
 [1]:	http://docs.oracle.com/javase/specs/jls/se7/html/jls-12.html#jls-12.5
