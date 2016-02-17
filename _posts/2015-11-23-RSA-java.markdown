@@ -1,0 +1,160 @@
+---
+layout: post
+title:  Java实现RSA签名验签和加密解密
+date:   2015-11-23
+---
+
+<p class="intro"><span class="dropcap">最</span>近工作中用到了RSA加密和签名，于是学习了一下如何用Java实现，还是挺简单的，调用Java的Security和Crypto库就可以随便使用各种加密和签名了，下面是测试代码：</p>
+
+{% highlight java %}
+import java.security.InvalidKeyException;
+import java.security.KeyFactory;
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+import java.security.SecureRandom;
+import java.security.Security;
+import java.security.Signature;
+import java.security.SignatureException;
+import java.security.interfaces.RSAPrivateKey;
+import java.security.interfaces.RSAPublicKey;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+
+
+public class Test {
+
+public static void main(String args[]()) throws NoSuchProviderException{
+
+
+String msg = "Hello,I am the source string!";
+String signedMsgString = null;
+KeyPairGenerator generator = null;
+
+try {
+//指定RSA算法
+generator = KeyPairGenerator.getInstance("RSA");
+} catch (NoSuchAlgorithmException e1) {
+// TODO Auto-generated catch block
+e1.printStackTrace();
+}
+generator.initialize(1024, new SecureRandom());
+//生产密钥对
+KeyPair keyPair =  generator.generateKeyPair();
+System.out.println(msg);
+System.out.println("Now I am going to sign the message...");
+// 得到私钥  
+RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();  
+// 得到公钥  
+RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();  
+Cipher cipher = null;
+byte[]() output=null;
+//加密
+try {
+cipher=Cipher.getInstance("RSA");
+cipher.init(Cipher.ENCRYPT\_MODE, privateKey);
+output = cipher.doFinal(msg.getBytes());
+String  outString = new String(output);
+System.out.println("OK,Signed byte is:"+output);
+System.out.println("OK,Signed message is:"+outString);
+} catch (NoSuchAlgorithmException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (NoSuchPaddingException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+
+  catch (InvalidKeyException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (IllegalBlockSizeException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (BadPaddingException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+Cipher cipher2 = null;
+//解密
+try {
+cipher2 = Cipher.getInstance("RSA");
+cipher2.init(Cipher.DECRYPT\_MODE, publicKey);
+byte[]() result = cipher2.doFinal(output);
+String  rString = new String(result);           
+System.out.println("DE--------OK,Signed message is:"+result);
+System.out.println("DE--------OK,Signed message is:"+rString);
+} catch (InvalidKeyException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (NoSuchAlgorithmException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (NoSuchPaddingException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (IllegalBlockSizeException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (BadPaddingException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+byte[]() keyBytes = privateKey.getEncoded();
+String s = org.apache.commons.codec.binary.Base64.encodeBase64String(keyBytes);
+System.out.println("--------Private Key(byte) is:"+keyBytes.toString());
+System.out.println("--------Private Key is(String):"+s);
+String rString=null;
+//签名
+try {
+Signature signature = Signature.getInstance("SHA1WithRSA");
+signature.initSign(privateKey);
+signature.update(msg.getBytes());
+byte[]() b = signature.sign();
+ rString = org.apache.commons.codec.binary.Base64.encodeBase64String(b);
+System.out.println("-------签名后的数据为:"+rString);
+
+} catch (NoSuchAlgorithmException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (InvalidKeyException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (SignatureException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+//验签
+try {
+Signature signature2 = Signature.getInstance("SHA1WithRSA");
+signature2.initVerify(publicKey);
+signature2.update(msg.getBytes());
+boolean verify = signature2.verify(Base64.decode(rString));
+if (verify) {
+System.out.println("验签成功");
+}else {
+System.out.println("验签失败");
+}
+} catch (NoSuchAlgorithmException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (InvalidKeyException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (SignatureException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+
+
+}
+
+}
+
+
+{% endhighlight %}
+
