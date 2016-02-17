@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            cellier
+tagline:          ''
+description:      '『he looks like a dog so』 『because he is a PM』'
+url:              http://cellier.me
+
+author:
+  name:           'cellier'
+  email:          cellier@mail.com
+
+paginate:      10
+
+# Custom vars
+version:          0.0.3
+
+# Comments
+
+comments :
+    provider : duoshuo
+    duoshuo :
+          short_name : cellier-me
+
+
