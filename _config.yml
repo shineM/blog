@@ -6,14 +6,14 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            cellier
+title:            shineMicroxy
 tagline:          ''
-description:      '『he looks like a dog so』 『because he is a PM』'
-url:              http://cellier.me
+description:      '『The most beautiful words in life is：It works！』'
+url:              http://danlvse.com
 
 author:
-  name:           'cellier'
-  email:          cellier@mail.com
+  name:           'Xinyuan'
+  email:          zhongxinyuann@gmail.com
 
 paginate:      10
 
@@ -25,6 +25,4 @@ version:          0.0.3
 comments :
     provider : duoshuo
     duoshuo :
-          short_name : cellier-me
-
-
+          short_name : xinyuan 
