@@ -62,7 +62,9 @@ public class CornerDialog extends Drawable {
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)  
     @Override  
     public void draw(Canvas canvas) {  
-        //带圆角的矩形canvas.drawRoundRect(getBounds().left,getBounds().top,getBounds().right,getBounds().bottom,radius,radius,paint);  
+        //带圆角的矩形_
+
+canvas.drawRoundRect(getBounds().left,getBounds().top,getBounds().right,getBounds().bottom,radius,radius,paint);  
     }  
   
     @Override  
@@ -166,3 +168,6 @@ MyTransition(color,radius));
 {% endhighlight %}
 下面是最终的效果图：
 <img src="{{ '/public/img/smooth.jpg' | prepend: site.baseurl }}" alt="">
+这里只实现了退出的动画，我们还可以再写一个transition类来实现进入的动画，把动画属性翻转过来就OK了，这个动画参考了开源项目Plaid，非常感谢作者，从其中学到了很多，传送门[GitHub][1]
+
+[1]:	https://github.com/nickbutcher/plaid
