@@ -6,12 +6,8 @@ date:   2016-03-03
 
 <p class="intro"><span class="dropcap">好</span>久没更新博客了，写博客确实能把学到的知识更系统地消化一遍，但是实在是耗时间。最近Android学习进入了痴迷的状态，下班时间和周末基本泡在了Android Studio里面，成就感可能就是动力的来源吧，经常为解决了一个小bug、实现了一个小动画而激动一小会儿。嗯，学习贵在坚持！</p>
 
-<p>这里记录一下近期的Android学习笔记，大多数来源于平时记录在印象笔记里面的碎片</p>
-#### 输入键盘和View的布局适应问题
-当输入框下面的view没有被输入法遮挡，而是推上来导致view变形的时候，可以在manifest中设置该Activity的属性为：
-{% highlight java %}
-android:windowSoftInputMode="stateHidden|adjustNothing"
-{% endhighlight %}
+<p>这里记录一下近期的Android学习笔记，大多数来源于平时记录在印象笔记里面的碎片，可能太基础了，算是温习一遍吧</p>
+
 #### RecylerView上拉加载更多数据的实现
 写一个继承自RecyclerView.OnScrollListener滑动监听
 {% highlight java %}
@@ -41,6 +37,17 @@ grid.addOnScrollListener(new InfiniteScrollListener(layoutManager, dataManager) 
     }  
 });
 
+{% endhighlight %}
+#### Picasso加载本地图片的问题
+路径前面要加“file：”
+{% highlight java %}
+Picasso.with(this).load("file:"+imagePath).fit().into(imageView);
+{% endhighlight %}
+
+#### 输入键盘和View的布局适应问题
+当输入框下面的view没有被输入法遮挡，而是推上来导致view变形的时候，可以在manifest中设置该Activity的属性为：
+{% highlight java %}
+android:windowSoftInputMode="stateHidden|adjustNothing"
 {% endhighlight %}
 
 #### Java String split方法
@@ -196,10 +203,20 @@ public static boolean isFastDoubleClick() {
 }
 
 {% endhighlight %}
-
-<img src="{{ '/public/img/ocean.png' | prepend: site.baseurl }}" alt=""> 
+#### 录制GIF
+这种方法录制GIF分为两步完成：录视频，剪裁成GIF。
+首先手机连上电脑，确认adb命令可以使用，然后在terminal输入以下命令
 {% highlight java %}
-
+adb shell screenrecord /sdcard/xxx.mp4
 {% endhighlight %}
 
+就会录制一段视频保存在指定位置了，还可以加入一些录制参数
+{% highlight java %}
+ --time-limit N //限制视频录制时间为N秒,默认180秒
+ --size N*//限制录制视频分辨率为N*N，默认使用手机的分辨率
+--bit-rate //指定视频的比特率为6Mbps，默认为4Mbps
+{% endhighlight %}
+接着需要用到一款软件Video To GIF ，下载地址[豌豆荚][10]。
 
+
+[10]:	http://apps.wandoujia.com/redirect?signature=e3f9891&url=http%3A%2F%2Fshouji.360tpcdn.com%2F140404%2Fab6403ea7dfea7715265e25f1c19cff1%2Fnet.atredroid.videotogif_23.apk&pn=net.atredroid.videotogif&md5=ab6403ea7dfea7715265e25f1c19cff1&apkid=10172992&vc=23&size=9947938&pos=t/detail&tokenId=sspai&appType=APP "豌豆荚"
