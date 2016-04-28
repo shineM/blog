@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Resume/
+permalink: /resume/
 ---
 
 
