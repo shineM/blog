@@ -3,7 +3,7 @@ layout: page
 permalink: /resume/
 ---
 
-{% highlight json %}
+{% highlight java %}
 {
 “name”: ”Xinyuan”,  
 “birthday”: “1993-08”,  
@@ -12,10 +12,10 @@ permalink: /resume/
 “urls”: 
  [
  * <a href="https://twitter.com/shineMicroxy">Twitter</a>
-* <a href="http://weibo.com/u/3212528202">新浪微博</a>
-* <a href="https://github.com/shineM">GitHub</a>
-* <a href="mailto:zhongxinyuann@gmail.com">Email</a>
- ]
+	* <a href="http://weibo.com/u/3212528202">新浪微博</a>
+		* <a href="https://github.com/shineM">GitHub</a>
+		* <a href="mailto:zhongxinyuann@gmail.com">Email</a>
+			 ]
 }
 {% endhighlight %}
 
