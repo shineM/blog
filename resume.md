@@ -3,7 +3,7 @@ layout: page
 permalink: /resume/
 ---
 
-{% highlight java %}
+{% highlight javascript %}
 
 {
 “name”: ”Xinyuan”,  
