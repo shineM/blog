@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Cellier</title>
+ <link href="http://cellier.me/atom.xml" rel="self"/>
+ <link href="http://cellier.me/"/>
+ <updated>2015-02-17T13:59:57+08:00</updated>
+ <id>http://cellier.me</id>
+ <author>
+   <name>cellier</name>
+   <email>cellier@mail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>设计感应用·国外篇</title>
+   <link href="http://cellier.me/%E8%AE%BE%E8%AE%A1/2015/02/08/%E8%AE%BE%E8%AE%A1%E6%84%9F%E5%BA%94%E7%94%A8%E5%9B%BD%E5%A4%96%E7%AF%87/"/>
+   <updated>2015-02-08T00:00:00+08:00</updated>
+   <id>http://cellier.me/%E8%AE%BE%E8%AE%A1/2015/02/08/设计感应用国外篇</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/4/4/4/185444.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;前段时间，在知乎上提了个问题&lt;a href=&quot;http://www.zhihu.com/question/27475550&quot;&gt;国内有哪些非常有设计感的App?&lt;/a&gt;
+挺受关注，遂又新增一个国外系列(借用&lt;a href=&quot;http://www.zhihu.com/people/melodie728&quot;&gt;@Melodie&lt;/a&gt;回答的&lt;a href=&quot;http://www.zhihu.com/question/27475550/answer/38611416&quot;&gt;格式&lt;/a&gt;)。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;1. &lt;a href=&quot;http://hipstamatic.com/oggl/&quot;&gt;Oggl&lt;/a&gt; &lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/2/1/4/185412.png&quot; alt=&quot;Oggl&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;由老牌滤镜应用厂商hipstamatic出品（其旗下所有的产品，设计感都非常强，可谓是“app届的暴雪”）。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;2. &lt;a href=&quot;http://macpaw.com/listen&quot;&gt;Listen&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/3/1/4/185413.png&quot; alt=&quot;Listen&quot;&gt;
+相信对于使用mac的同学，“CleanMyMac”这款应用一定不陌生，而Listen就是由 CleanMyMac 创建者 MacPaw 出品的，交互十分惊艳。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;3. &lt;a href=&quot;http://timeline.com&quot;&gt;TIMELINE&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/4/1/4/185414.png&quot; alt=&quot;&quot;&gt;
+一款新闻类app。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;4. &lt;a href=&quot;http://iamping.com&quot;&gt;Ping ●&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/1/1/4/185411.png&quot; alt=&quot;&quot;&gt;
+由Secret出品的一款极简Feeds类应用，同设计风格的还有一大批像&lt;a href=&quot;http://www.waved.io&quot;&gt;Waves&lt;/a&gt;这样的IM，他们都走极简路线。特别喜欢Ping ●里面的那个切换界面的“●”，切换的动画实在是愉悦人心。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;5. &lt;a href=&quot;https://www.flickr.com/#section-1&quot;&gt;Flickr&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/5/1/4/185415.png&quot; alt=&quot;&quot;&gt;
+感觉Yahoo的产品做的大多很用心（国内类比看来，国内的网易与其基因很像，出了云音乐、Lofter等优质应用）&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;6. &lt;a href=&quot;https://www.facebook.com/paper&quot;&gt;Facebook Paper&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/6/1/4/185416.png&quot; alt=&quot;&quot;&gt;
+看看它在苹果商店取得的成就：&lt;br&gt;
+- &lt;b&gt;Apple Best Apps of 2014&lt;/b&gt;&lt;br&gt;
+- &lt;b&gt;Apple App Store Editors&amp;#39; Choice&lt;/b&gt;&lt;br&gt;
+- &lt;b&gt;Fast Company Best Mobile Apps of 2014&lt;/b&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;其团队放在github上的开源动画库POP也是火得不得了...&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;无需多言，你必须下载下来享受新科技下未来感阅读体验。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;7. &lt;a href=&quot;https://mobile.yahoo.com/newsdigest&quot;&gt;Yahoo News Digest&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/7/1/4/185417.png&quot; alt=&quot;&quot;&gt;
+又是一款获奖无数的app：&lt;br&gt;
+- &lt;b&gt;App Store Best of 2014 &lt;/b&gt;&lt;br&gt;
+- &lt;b&gt;Apple Design Award 2014 Winner&lt;/b&gt;&lt;br&gt;
+每天精选18篇新闻，主页面上还会附上文章内容提示的标签，比如含有维基百科注解、视频、图像、股票等内容，社交媒体捕捉的评论信息，以及文章背后涉及的知识背景。根据官方的算法说明，Digest给用户提供的是提炼版本的新闻内容，而不是简单新闻堆砌打包。&lt;/br&gt;
+我一直把它放在手机里不舍得删除，偶尔拿出来阅读，享受此应用带来的科技美感同时还能学学英文...&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;8. &lt;a href=&quot;https://www.wire.com/&quot;&gt;Wire&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/8/1/4/185418.png&quot; alt=&quot;&quot;&gt;
+这是绝对值得尝试的一款跨时代的手机应用，很多方面都贴合着趋势，特别是：“直接和内容交互的方式”的理念让人有顿悟的感觉。应用是一款支持群聊、语音通话、等功能的IM。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;9. &lt;a href=&quot;https://clipapp.co/&quot;&gt;Clip&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/9/1/4/185419.png&quot; alt=&quot;&quot;&gt;
+视频社交类应用中，最有设计感的一个！&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;10. &lt;a href=&quot;https://about.flipboard.com/&quot;&gt;Flipboard&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/0/2/4/185420.png&quot; alt=&quot;&quot;&gt;
+个人感觉，和国内zarker、网易云阅读相比更有杂志的设计感。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;11. &lt;a href=&quot;https://www.storehouse.co/&quot;&gt;Storehouse&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/1/2/4/185421.png&quot; alt=&quot;&quot;&gt;
+刚出的时候就下载了Ipad版，下拉的loading“刷漆刷漆”~~&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;12. &lt;a href=&quot;http://www.reuters.tv/&quot;&gt;Reuters TV&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/2/2/4/185422.png&quot; alt=&quot;&quot;&gt;
+视频新闻应用。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;13. &lt;a href=&quot;http://handpick.com/&quot;&gt;handpick&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/3/2/4/185423.png&quot; alt=&quot;&quot;&gt;
+一款美食应用，爱好美食的可不能错过。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;14. &lt;a href=&quot;https://couple.me/&quot;&gt;Couple&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/4/2/4/185424.png&quot; alt=&quot;&quot;&gt;
+一款情侣应用，在各家情侣应用中靠界面交互设计脱颖而出，随便夸下它的着陆页上&lt;a href=&quot;https://map.couple.me&quot;&gt;Real-Time Activity Map&lt;/a&gt;做得真是让其它家情侣应用汗颜。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;15. &lt;a href=&quot;http://www.google.com/inbox/&quot;&gt;Inbox by Gmail&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/5/2/4/185425.png&quot; alt=&quot;&quot;&gt;
+google收购著名邮件应用团队之后产出的、又是一款可以称为“跨时代”的邮件应用，界面动效使用“惊艳”这个词汇来形容再合适不过，淘宝上邀请码一度炒到100RMB...BTW，我这边还有些邀请码，想要尝鲜的可以在评论区留言。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;16. &lt;a href=&quot;https://www.pinterest.com/&quot;&gt;Pinterest&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/6/2/4/185426.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;17. &lt;a href=&quot;https://super.me/&quot;&gt;SUPER&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/7/2/4/185427.png&quot; alt=&quot;&quot;&gt;
+号称：史上“最丑”的app，大家可以下载感受下。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;18. &lt;a href=&quot;http://www.skype.com/en/&quot;&gt;Skype&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/8/2/4/185428.png&quot; alt=&quot;&quot;&gt;
+Skype的动效做得十分动感（特别是那百看不厌的loading动画）。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;b&gt;19. &lt;a href=&quot;http://www.sling.me/&quot;&gt;Facebook Slingshot&lt;/a&gt;&lt;/b&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/9/2/4/185429.png&quot; alt=&quot;&quot;&gt;
+Facebook‘抄’Snapchat的一款照片IM应用，操作音效特别动人。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;还有一些像Path这种经典设计感应用以及像【Great Coffee App】、【Sooshi】这种介绍产品性质的设计感应用，这里就不补充了。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h6&gt;说说这些应用的共同点：&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;功能单一,少即是多,内容为王&lt;/li&gt;
+&lt;li&gt;多是大公司或有大公司背景的团队出品(Yahoo\facebook\Microsoft\google)&lt;/li&gt;
+&lt;li&gt;交互感强烈，手势取代点击&lt;/li&gt;
+&lt;li&gt;多个产品去掉多余界面元素，包括顶部系统状态条&lt;/li&gt;
+&lt;li&gt;动效合宜，曲线愉心&lt;/li&gt;
+&lt;li&gt;操作的声音效果短暂而使人心动，短暂是为了考虑用户不适合有声效的场景下也不过分打断（不像PC版本QQ那刺耳的提醒）&lt;/li&gt;
+&lt;li&gt;阅读类应用居多&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;转载请注明：by &lt;a href=&quot;http://www.cellier.me&quot;&gt;cellier&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>产品设计师的自我修养</title>
+   <link href="http://cellier.me/2015/01/25/for_product_designer/"/>
+   <updated>2015-01-25T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/25/for_product_designer</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/0049_Untitled_2010_hires-copy.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;div align=right&gt;&lt;p&gt;&lt;cite&gt;&amp;mdash; 图片来自&lt;a href=&quot;http://www.moonassi.com&quot; target=&quot;_blank&quot;&gt;@moonassi&lt;/a&gt;&lt;/cite&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 概念里大部分产品设计师会涵盖传统互联网中 PM、UE、UI 这三个角色，有的甚至是：产品经理（拥有产品素养）+美工（拥有视觉设计能力）+会套用框架的初级码农，简直分分钟可以自己创业圈钱，迎娶白富美，走向人生巅峰...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;往往某些产品设计师各方面能力都有，所以不适合在公司一个萝卜一个坑的制度下工作，而更多选择了工作室的模式，或者干脆freelancer或者自己创业。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;基本素能&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;英文要好：免不了要在例如medium、producthunt、Quora等英文网站学习&lt;/li&gt;
+&lt;li&gt;搜索能力:硬盘500G显示你的搜寻能力&lt;/li&gt;
+&lt;li&gt;持续学习钻研能力&lt;/li&gt;
+&lt;li&gt;纯粹：“多点纯粹少点人情世故利益关系，人简单了，做出来的东西才会给人感觉到善意”&lt;/li&gt;
+&lt;li&gt;逻辑、直觉，缺一不可 &lt;small&gt;（个人而言更趋向直觉）&lt;/small&gt;&lt;/li&gt;
+&lt;li&gt;品味，气质：用户所接触的永远是外在形式，这也是他们所看到的&lt;/li&gt;
+&lt;li&gt;沟通能力，简单的表述让人明白，表达产品理念，且有说服力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;必读书籍&lt;/h3&gt;
+
+&lt;p&gt;作为产品设计师，一些职业素养还是需要理论支持的，下面是一些书刊帮助认知产品设计:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/3567853/&quot;&gt;Getting Real&lt;/a&gt;，中文版本点&lt;a href=&quot;http://cnborn.net/docs/getting_real/index.html&quot;&gt;这里&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/5320866/&quot;&gt;Rework&lt;/a&gt;：37signals 必出精品&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/25861795/&quot;&gt;Rework2&lt;/a&gt;：主要讲远程协作&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/5394309/&quot;&gt;简约至上&lt;/a&gt;：大名鼎鼎，无需多说&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/4243770/&quot;&gt;创新者的窘境&lt;/a&gt;：好的创新，好的产品&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/2144413/?i=0&quot;&gt;简单法则&lt;/a&gt;：简单的哲学&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/6024020/&quot;&gt;关键设计报告&lt;/a&gt;：交互届圣书，中文版预览版点&lt;a href=&quot;http://down.51cto.com/data/826835&quot;&gt;这里&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/25817190/&quot; title=&quot;设计之下&quot;&gt;设计之下&lt;/a&gt;：搜狐团队出品，算是国内比较好的设计书籍&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;必做的事&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;维持一个blog，记录感悟和总结，向业内分享、发声，打造个人品牌&lt;/li&gt;
+&lt;li&gt;学习观察人，探究人的内在&lt;/li&gt;
+&lt;li&gt;玩各种互联网产品，Appstore的排行榜至少每月刷一次&lt;/li&gt;
+&lt;li&gt;读更多不同专业的书，学会跨界思维—“他山之石，可以攻玉。”&lt;/li&gt;
+&lt;li&gt;反复“把玩”自己出的产品，将优秀产品细节分解&lt;/li&gt;
+&lt;li&gt;对趋势，行业趋势、产品趋势、设计趋势&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;理念文化&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;简单优雅的产品理念&lt;/li&gt;
+&lt;li&gt;极简生活主义，可参看此文章：&lt;/li&gt;
+&lt;li&gt;Geek精神和文化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;我的工具集&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com&quot;&gt;Sublime&lt;/a&gt;:用于改改网页，使用起来很轻便，大多时候也是我使用Markdown编写文字的得力助手（比如这篇文章就是这样使用它写的）&lt;/li&gt;
+&lt;li&gt;UIysses &amp;amp; iA Writer &amp;amp; Typed，尝试了各种Markdown，觉得这几款做得还算优秀（%&amp;gt;_&amp;lt;%，剁了好多手）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ybb117.com/&quot;&gt;鱼摆摆&lt;/a&gt;:9块钱一个月让我保持一直在墙外的快感，速度佳。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xscopeapp.com/&quot;&gt;xScope&lt;/a&gt;:支持10项功能：镜像、文字测量、尺寸、尺子、覆盖、屏幕虚拟、取色器、标尺、框架和十字标。&lt;/li&gt;
+&lt;li&gt;Reeder&lt;/li&gt;
+&lt;li&gt;Sketch&lt;/li&gt;
+&lt;li&gt;MindNode&lt;/li&gt;
+&lt;li&gt;网易云音乐&lt;/li&gt;
+&lt;li&gt;Teambition &amp;amp; slack&lt;/li&gt;
+&lt;li&gt;Evernote&lt;/li&gt;
+&lt;li&gt;OmniFocus&lt;/li&gt;
+&lt;li&gt;Form&lt;/li&gt;
+&lt;li&gt;Noizio&lt;/li&gt;
+&lt;li&gt;Xcode&lt;/li&gt;
+&lt;li&gt;Sip&lt;/li&gt;
+&lt;li&gt;Couleurs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://getstache.com/&quot;&gt;Stache&lt;/a&gt;：用于书签管理很直观，比google官方出品的&lt;b&gt;Bookmark Manager&lt;/b&gt;插件好多了，mac+app四十不到（%&amp;gt;_&amp;lt;%，又剁手了）
+&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-01-27%20%E4%B8%8B%E5%8D%884.45.12.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;li&gt;OmniGraffle&lt;/li&gt;
+&lt;li&gt;Adobe &lt;/li&gt;
+&lt;li&gt;Keynote &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;国内外优秀产品设计师&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@MengTo&quot;&gt;Meng To&lt;/a&gt;:&lt;a href=&quot;https://designcode.io/&quot;&gt;designcode&lt;/a&gt;创始人&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://simplebits.com&quot;&gt;Dan Cederholm&lt;/a&gt;: Dribbble‘s Designer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dlanham.com/&quot;&gt;David Lanham&lt;/a&gt;:GUI设计师、插画师。iconfactory设计师，The Heist（app）首席设计师。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dribbble.com/liuyuan&quot;&gt;Liu Yuan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://allidryer.com/&quot;&gt;allidryer&lt;/a&gt;:a Designer at Twitter and a licensed Architect in the state of Texas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.chouyu.com.cn/&quot;&gt;臭鱼&lt;/a&gt;:一个交互设计师&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://haijuns.com/&quot;&gt;黄海均&lt;/a&gt;:产品&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/people/hepo&quot; title=&quot;陈海波&quot;&gt;陈海波&lt;/a&gt;:FarBox产品设计师&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/youwenwen&quot;&gt;设计师 Yoyo&lt;/a&gt;:华为设计总监&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://huchao.me/&quot;&gt;胡超&lt;/a&gt;:腾讯产品&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;入门文章&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@ericeriksson/what-is-product-design-9709572cb3ff&quot;&gt;What is Product Design?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>产品设计师常用网站</title>
+   <link href="http://cellier.me/2015/01/20/product_designer_resouce_by_cellier/"/>
+   <updated>2015-01-20T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/20/product_designer_resouce_by_cellier</id>
+   <content type="html">&lt;!-- more --&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 下面是个人常使用的一些网站，涉及产品资讯、产品思维、UI素材、图片素材、灵感参考、经典教程等聚合的网站，不定期更新。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-01-25%20%E4%B8%8B%E5%8D%8811.36.32.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;Sketch相关&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;教程：&lt;a href=&quot;http://www.sketchcn.com/sketch-chinese-user-manual.html&quot;&gt;Sketch3中文手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://uiweek.com/wp-content/plugins/download-monitor/download.php?id=18&quot;&gt;下载Sketch3中文手册iBOOK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;资源：&lt;a href=&quot;http://www.sketchappsources.com/&quot;&gt;sketchappsources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://designcode.io/&quot;&gt;一套iOS应用设计和原型制作教程:design+code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;一些学习技术、设计的网站：&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udemy.com/&quot;&gt;Udemy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;产品设计好文章&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@JanLosert/14-different-ways-of-product-design-3f349a19e613&quot;&gt;14 Different Ways of Product Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;新产品网站&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.producthunt.com/&quot;&gt;Product Hunt&lt;/a&gt;:&amp;quot;The best new products, every day&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://next.36kr.com/posts&quot;&gt;NEXT&lt;/a&gt;:&amp;quot;不错过任何一个新产品&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mindstore.io/&quot;&gt;Mindstore&lt;/a&gt;:&amp;quot;在这里找到最好的产品与想法&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.demo8.com/&quot;&gt;Demo8&lt;/a&gt;:&amp;quot;发现最新的好产品&amp;quot;,它的app端做得比较不错&lt;/li&gt;
+&lt;li&gt;另外还有些可看可不看的：&lt;a href=&quot;http://xinpinla.com/&quot;&gt;新品啦&lt;/a&gt;；&lt;a href=&quot;http://today.itjuzi.com/&quot;&gt;TODAY&lt;/a&gt;;&lt;a href=&quot;http://www.rushou.net/&quot;&gt;入手&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tmtphoto.qiniudn.com/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://500px.com/&quot;&gt;最出色的摄影社区 500px&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;shadow&quot; src=&quot;http://tmtphoto.qiniudn.com/最出色的摄影社区500px.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://thestocks.im/&quot;&gt;THE STOCKS&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
+
+&lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://thestocks.im/&quot;&gt;the best royalty free stock photos in one place&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;shadow&quot; src=&quot;http://tmtphoto.qiniudn.com/TheStocksplace.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
+
+&lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Free High Resolution Photos&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;不定期更新的一些独具风格的图片，大多来自
+&lt;a href=&quot;https://www.tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;img class=&quot;shadow&quot; src=&quot;http://tmtphoto.qiniudn.com/Unsplash.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://allthefreestock.com/&quot;&gt;All The Free Stock&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
+
+&lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://allthefreestock.com/&quot;&gt;Free Stock Images &amp;amp; Videos&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;一个免费资源整合站&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;img class=&quot;shadow&quot; src=&quot;http://tmtphoto.qiniudn.com/AllTheFreeStock.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://streetwill.co/&quot;&gt;Streetwill&lt;/a&gt;&lt;/div&gt;&lt;/h5&gt;
+
+&lt;h6&gt;&lt;div align=middle&gt;&lt;a href=&quot;http://streetwill.co/&quot;&gt; Free Hi Res Photos&lt;/a&gt;&lt;/div&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;img class=&quot;shadow&quot; src=&quot;http://tmtphoto.qiniudn.com/Streetwill.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>社区O2O展望之--邻里社交</title>
+   <link href="http://cellier.me/2015/01/12/%E7%A4%BE%E5%8C%BAO2O%E4%B9%8B%E9%82%BB%E9%87%8C%E7%A4%BE%E4%BA%A4%E5%85%B3%E7%B3%BB/"/>
+   <updated>2015-01-12T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/12/社区O2O之邻里社交关系</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://7tsy6t.com1.z0.glb.clouddn.com/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg&quot; alt=&quot;社区O2O&quot;&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt; 2014年已经过眼云烟，云烟中有着叮咚倒闭传闻和小区无忧再融资...我们身处在一个疯狂而美好的时代，也生活在一个忙碌且充满挑战的时代，
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;互联网的外在形式是“连接”，本质是提升效率的工具，通过将物与人、服务与人、人与人、物与物连接起来，提升他们之间的运行效率...&lt;/p&gt;
+
+&lt;p&gt;马克•格兰诺维特马克•格兰诺维特在他主持的研究项目报告里〈硅谷社会关系网络〉里将“社会关系网络”定义为“由社会关系或某一特殊类型的链接联系起来的一些节点和行为者（个人和组织）。两个行为者之间的链或关系既有紧密程度也有具体内容。内容可能包括信息、建议或友谊，共同利益或成员资格，通常还有一定程度的信任。在硅谷像在其他地方一样，链的信任程度是关键。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;邻里社交：信任是关键&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;信任公式&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7tsy6t.com1.z0.glb.clouddn.com/2312312.jpg&quot; alt=&quot;信任公式&quot;&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;社交分类&lt;/h4&gt;
+
+&lt;p&gt;按照日常生活中可发生的社交场景进行属性分类，是以下三种：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;组织性社交&lt;/li&gt;
+&lt;li&gt;兴趣式社交&lt;/li&gt;
+&lt;li&gt;事件级社交&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;组织性社交&lt;/h5&gt;
+
+&lt;p&gt;此类社交占据了普通人的生活主旋律，主要是由社会组织框架决定的社交模式，包括：家庭、公司、学校、团体...&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;兴趣式社交&lt;/h5&gt;
+
+&lt;p&gt;此类社交主要产生于某些共同爱好，比如都喜欢打篮球，就有可能认识其他班级同样常打篮球的&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h5&gt;事件级社交&lt;/h5&gt;
+
+&lt;p&gt;这种类型的社交是基于事件发生的，比如“偶遇”，“事故”...
+现在在这块耕耘的主要是一些快速约会软件：Tinder、友加、比邻、微聚...
+事件级社交主要是要解决社交落地的效率问题。大多数人在无聊的时候，首先想到的是要做某件事（打游戏、逛街、吃饭、去图书馆、看电影等），而不是要见某个人（这在熟人场景才会发生）。一个事件级社交产品要做的，是确立用户可社交的场景，然后再往这个场景里面填入合适的人。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7tsy6t.com1.z0.glb.clouddn.com/djalksd-1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;三者不是相互独立分隔的，它们的关系是“我中有你，你中有我”，且具备一定条理性发展，例如：非常恶俗地从你在校园骑自行车不小心撞上一位年龄相仿正适合谈恋爱的女同学说起，这就是典型的因事件而开始社交，然后你得赔偿吧，先是一些照顾照料，然后是肉偿...中间你们会发现，原来大家都喜欢《大话西游》这部片子，电影口味如此相同，那么就开始约会了...然后大家就熟门熟路了，只要是你的联系方式，不论电话、微信、QQ...你都会有她的联系方式，你们变得像亲人一般...具备了社会组织性，这时候，你们已经被社会定义成“情侣”！&lt;/p&gt;
+
+&lt;p&gt;还有可能是&lt;/p&gt;
+
+&lt;h4&gt;《Tinder Plus》&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div align=center&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XODY3MzAxODQw/v.swf&quot; allowFullScreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;&lt;div align=center&gt;&lt;b&gt;考拉社区概念界面&lt;/b&gt;&lt;/div&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.ui.cn/data/file/2/7/7/171772.png?imageView2/2/w/900/q/90&quot; alt=&quot;&quot;&gt;
+&lt;div align=right&gt;&lt;p&gt;&lt;cite&gt;&amp;mdash; 图片来自&lt;a href=&quot;http://i.ui.cn/ucenter/93343&quot; target=&quot;_blank&quot;&gt;@cellier&lt;/a&gt;&lt;/cite&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;现有的陌生人社交体系一定会是沿着社交O2O场景化发展，结合现有的线上消费优惠进行红利分成，例如：Lemon（一款兴趣小组app）的电影小组，其中就可直接打通猫眼或者格瓦拉票业，
+这像是团购模式的升级，现在的陌生人社交会趋向与线下商业模式相融，最先开始的一定是电影产业。
+&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.iyiou.com/p/14900&quot;&gt;大胆猜想！陌陌最合理的商业化之路，在于团购!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://money.163.com/14/0918/10/A6DVD66H002551G6.html&quot;&gt;O2O不久将如何攻陷线下社交&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/question/19917132&quot;&gt;O2O 的本质是什么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/question/24551029&quot;&gt;线下活动也算O2O的一种吗？对于互联网公司的意义是什么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zhihu.com/question/20556382&quot;&gt;为什么微信往 O2O 生活上发力，而不是移动社交？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;更高级点得，使用类似&lt;p&gt; &lt;a href=&quot;http://baike.baidu.com/link?url=yLoQISPKMEEBamUxz6UdX8rX3TsXZZVn3xAwtnOAQAjoz6sOYIp2PNKrH4X5J-aoSHzC8ZJLjR6LmUhfaiYGrK&quot; target=&quot;_blank&quot;&gt; FOAF &lt;/a&gt;进行社区数据的有效管理，这些数据段就可被软件所识别，进行数据推算，现在的FOAF多用于网络爬虫。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;内容既服务的时代来临&lt;/h2&gt;
+
+&lt;p&gt;内容既服务，衍生于软件既服务的思考，社区O2O的模式决定了内容既服务的价值性，21世纪千万别走营销战略，会被用户唾弃。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;个人节点的重要性&lt;/h2&gt;
+
+&lt;p&gt;以人为服务中心的理念决定了一个社区的社员身份确定性，会使其成为一个点，身份标识是社区的基础。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;产品生态的自我演化&lt;/h2&gt;
+
+&lt;p&gt;一个好的社交产品，从来不需要运营的过多干预，她有自生产自消耗的能力。
+一个顶尖的社群产品，在“形态”里面永远只是构架了一个形而从未有态，态是用户演化的。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;真实才有价值&lt;/h3&gt;
+
+&lt;p&gt;社交的价值在于真实--就是那种实实在在满足了人排遣孤独欲的饱和感。
+孤独可以被线上部分解决，但人的生存问题还是线下的，要消费要服务...这时候O2O就粉墨登场了，所以微信的发展也是如此，我想张小龙一定是鼓励微信用户去线下进行活动的，对微信而言，价值不是用户在其上面花两个小时聊天，而是花了两分钟说几句，然后通过微信订购了一家餐厅或者影院，然后用户线下交流去了，这应该是微信最想完成的生态闭环。&lt;/p&gt;
+
+&lt;p&gt;社区社交也是如此，线上的交流展示是用户黏着度，但这不是最重要的，对用户有价值的是，他们能在邻居社交中获取到社交的满足感，生活的充实感，这绝对不是在陌陌上打两个小时的嘴炮能满足的。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h6&gt;后记&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;随着互联网技术的发展，信息的获取和消费变得简单，以信息不对称构造生态圈的商业模式在21世纪变得不切实际的，“渠道为王”的时代也眼看着就要过去，只有靠那些能“吸”住用户的强痛点去构架自己商业壁垒才是最为有效的扩张手段......但在O2O这个圈子从来不缺那些敢于填坑土豪级玩家，他们似乎还是执迷于那些不存在的“捷径”...但仍奉劝一句：&lt;/p&gt;
+
+&lt;h4&gt;&lt;div align=center&gt;&lt;b&gt;讨好用户才是真欢喜！&lt;/b&gt;&lt;/div&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d13yacurqjgara.cloudfront.net/users/285475/screenshots/1780578/dribbble.gif&quot; alt=&quot;&quot;&gt;
+&lt;div align=right&gt;&lt;p&gt;&lt;cite&gt;&amp;mdash; 图片来自&lt;a href=&quot;http://markusmagnusson.tv/&quot; target=&quot;_blank&quot;&gt;@Markus Magnusson&lt;/a&gt;&lt;/cite&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h6&gt;参考资料：&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt; &lt;a href=&quot;https://www.facebook.com/notes/facebook-data-team/rethinking-information-diversity-in-networks/10150503499618859&quot; target=&quot;_blank&quot;&gt;《Rethinking Information Diversity in Networks》&lt;/a&gt;（来源facebook需翻墙）&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://book.douban.com/subject/2091738/&quot; target=&quot;_blank&quot;&gt;《The Trusted Advisor》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.36kr.com/p/200936.html&quot; target=&quot;_blank&quot;&gt;《弱关系社区里，人人都是大明星系列》&lt;/a&gt;（来源&lt;a href=&quot;http://www.36kr.com/dovey&quot; target=&quot;_blank&quot;&gt;Dovey&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.cnblogs.com/shanyou/articles/270150.html&quot;&gt;FOAF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.ibm.com/developerworks/cn/xml/x-watch/part4/index.html&quot;&gt;XML 观察: 使用 FOAF 支持在线社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://www.docin.com/p-675263682.html&quot;&gt;基于FOAF的分布式移动SNS应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://blog.sina.com.cn/s/blog_6b706e150100wnib.html&quot;&gt;Friend of Friend(FOAF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://baike.baidu.com/link?url=vRGOLBa8b-GuCyGh-0ejJ8LTSytiNWcrz5GW8p1PyIJQzB3Z8t6YJpunhCG6OmDOCGE2WBCPyee4U48ud2nKFa&quot;&gt;弱连接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;http://blog.sina.com.cn/s/blog_5c57b5190102dwaw.html&quot;&gt;Facebook研究报告全文：重视社交网络“弱关系”&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>每个人都应该有一个Jekyll博客</title>
+   <link href="http://cellier.me/2015/01/04/jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+   <updated>2015-01-04T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/04/jekyll搭建博客教程</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/jianzhan.png&quot; alt=&quot;建站教程&quot;&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h6&gt;&lt;div align=middle&gt;免费使用Jekyll+Github Page搭建博客入门攻略&lt;/div&gt;&lt;/h6&gt;
+
+&lt;hr&gt;
+
+&lt;div class=&quot;message&quot;&gt;
+&lt;small&gt;因为自己爱捣（zhuang）鼓（bi），从博客&lt;a href=&quot;http://hi.baidu.com/xctrun&quot; target=&quot;_blank&quot;&gt;百度空间&lt;/a&gt;到后来轻博客： &lt;a href=&quot;http://www.posterous.com/&quot; target=&quot;_blank&quot;&gt;Posterous&lt;/a&gt;、Tumblr、点点、推他、Lofter...再到自己搭建wordpress，写一些简单的静态html页面...我可真是在“玩”博客，而非写博客。直到有一天认识了Jekyll，被其极简写作理念所拯救......&lt;/small&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;阅前说明&lt;/h4&gt;
+
+&lt;p&gt;此文主要记录了我自己在建此站点过程中遇见的一些问题和解决方案，完全是在自身能力层级范围内进行描述，有误之处望请包涵指正。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+本教程适用对象包括但不限于：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;对建站、HTML、CSS等词汇完全免疫的人&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;会修改网页图片链接的入门小白设计师&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;工具准备&lt;br&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;网页代码编辑器：Dreamweaver/&lt;a href=&quot;http://sublimetext.com&quot; target=&quot;_blank&quot;&gt;Sublime Text&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.oschina.net/news/50322/markdown-editors-and-tools&quot; target=&quot;_blank&quot;&gt;Markdown 编辑器&lt;/a&gt;（本人用的&lt;a href=&quot; http://realmacsoftware.com/typed&quot; target=&quot;_blank&quot;&gt;Typed&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://windows.github.com/&quot; target=&quot;_blank&quot;&gt;Github客户端&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;abbr title=&quot;本文涉及到本地安装Jekyll进行预览，所以使用到OS X系统的终端&quot;&gt;Terminal(终端)&lt;/abbr&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;VPN工具，便于搜索更多资料（本人使用&lt;a href=&quot;https://ybb117.com/&quot; target=&quot;_blank&quot;&gt;鱼摆摆&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;TXT/&lt;a href=&quot;https://www.yinxiang.com/&quot; target=&quot;_blank&quot;&gt;印象笔记&lt;/a&gt;，用于记录相关代码或者教程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;第0步：买域名&lt;/h4&gt;
+
+&lt;p&gt;懂的同学自行跳过此步，买域名为什么要放到前面来做掉？是为了防止有的同学弄到一半嫌麻烦，就没精神再捣鼓下去，而买了域名，钱都往里砸了，极有可能帮助剧情往下继续发展，有助于个人身心健康....
+&lt;br&gt;&lt;br&gt;
+域名可在&lt;a href=&quot;https://www.godaddy.com/&quot; target=&quot;_blank&quot;&gt;Go Daddy&lt;/a&gt;上使用支付宝购买，至于价格，相信我，你买的越贵你就越接近建站成功的时刻。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;点此查看&lt;a href=&quot;http://jingyan.baidu.com/article/fec4bce20d364bf2618d8b39.html&quot; target=&quot;_blank&quot;&gt;怎样购买GoDaddy域名&lt;/a&gt;&lt;/em&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;英文不好？那就万网、美联互橙、新网随便挑一个国内域名服务商买吧。
+&lt;br&gt;
+关于域名这块，还需要域名解析的预备知识，你可先&lt;a href=&quot;http://www.xindingyue.com/new-godaddy-cname.html&quot; target=&quot;_blank&quot;&gt;收藏这个&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;&lt;div align=center&gt;&lt;b&gt;那么接下来，让我们拿起工具开始吧！&lt;/b&gt;&lt;/div&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/heisencat.png&quot; alt=&quot;&quot;&gt;
+&lt;div align=right&gt;&lt;p&gt;&lt;cite&gt;&amp;mdash; 图片来自&lt;a href=&quot;https://github.com/jonrohan&quot; target=&quot;_blank&quot;&gt;@jonrohan&lt;/a&gt;&lt;/cite&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;第1步：注册github并搭建Page&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;p&gt;1,&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;&gt;注册Github&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+2,新建一个&lt;abbr title=&quot;Repository-中文叫做*版本库*或者*仓库*，相当于是一个目录，这个目录里面的每个文件的修改、删除，Github都能进行管理、跟踪以及复原&quot;&gt; Repository(仓库)&lt;/abbr&gt;
+&lt;br&gt;
+&lt;small&gt;如图，点击&lt;code&gt;+ New Repository&lt;/code&gt;&lt;/small&gt;
+&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/$%7D%60Q(%7DT)8K_HL4CADIP4$%7E9.jpg&quot; alt=&quot;&quot;&gt;
+&lt;br&gt;
+3,输入相关配置，注意，在网址栏一定要输入&lt;code&gt;username.github.io&lt;/code&gt;，username指的是你注册时的用户名
+&lt;br&gt;
+&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/dhkasdkldsajf.jpg&quot; alt=&quot;&quot;&gt;
+&lt;br&gt;
+4,新建好后，进入项目，点击右下角&lt;code&gt;Settings&lt;/code&gt;（设置）
+&lt;br&gt;
+&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/fdksahfladf.jpg&quot; alt=&quot;&quot;&gt;
+&lt;br&gt;
+5,点击 &lt;code&gt;Automatic page generator&lt;/code&gt;（页面自动生成器）
+&lt;br&gt;
+&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/fhalsjkfhka.jpg&quot; alt=&quot;&quot;&gt;
+&lt;br&gt;
+6,选择一个你喜欢的模板，点击生成...其实到这一步，我们的网站已经生成了，你可以通过自己的域名&lt;code&gt;username.github.io&lt;/code&gt;进行访问，只是目前，我们还没有学会对网站上的内容进行管理。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;第2步：解析自己的域名到&lt;code&gt;username.github.io&lt;/code&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+参考我们在准备阶段收藏的网页，在域名服务商那里将域名使用CNAME解析到自己的&lt;code&gt;此处填写你的用户名.github.io&lt;/code&gt;。
+&lt;br&gt;
+接着，我们要进行github端的配置，进入我们所建的Page仓库主页，找到右下角的&lt;code&gt;Clone in Desktop&lt;/code&gt;，将项目克隆到本地。对了，你下好了github的客户端了么？还没有？那赶紧下了，然后登陆，这就要用到它的同步功能了（其实用github客户端同步文档对Geek而言是一件不太光彩的事，但暂时我们先忍忍吧，先让自己看到一点效果，得到一点成就感，鼓舞着自己走下去）
+我们新建一个文档，随便什么格式，然后在里面写入自己买的域名（注意：如果是CNAME解析，此处域名前需加上“www.”），然后将文档重命名成&lt;code&gt;CNAME&lt;/code&gt;,不要加任何文件格式后缀。
+&lt;br&gt;
+然后此CNAME文档拖到我们克隆到本地的仓库文件夹，使用github客户端进行同步上传。过不了多久，你就可以在浏览器中打进你的域名，你会惊奇地发现，它已经自动跳转到你在github上设置的默认网页了！&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;第3步：本地安装git，并配置SSH&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Git是什么？它是最先进的分布式版本控制系统，什么？听不懂？那我举个糖炒栗子甜蜜蜜地告诉你：假设你是个苦逼的设计师，那么下图应该是你常有的遭遇：&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7d9kkp.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-01-05%20%E4%B8%8B%E5%8D%887.54.31.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;这时候，git就出现了，他不但能帮你自动记录每次文档的改动，还能让其他人协作编辑，这样的话，你就不需要手动管理这么多文档，也不用U盘来U盘去的了，想看其他同学改了什么，直接瞄一眼修改记录解决了。简直是IT届的“暖男欲女”，赶紧用它“装逼”用它“飞！”....&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h6&gt;&lt;div align=middle&gt;&lt;b&gt;Windows&lt;/b&gt;&lt;/div&gt;&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;去&lt;a href=&quot;http://www.git-scm.com/downloads&quot; target=&quot;_blank&quot;&gt;git-scm&lt;/a&gt;下载与你系统对应的安装包，然后安装。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安装完成后，在开始菜单找到“Git”-&amp;gt;“Git Bash”进行打开操作。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h6&gt;&lt;div align=middle&gt;&lt;b&gt;MAC OS  X&lt;/b&gt;&lt;/div&gt;&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;先安装个Xcode，在AppStore搜索安装即可；(安装包大，下载有些时间)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;运行Xcode，找到“Xcode”菜单-&amp;gt;“Preferences”，再“Downloads”标签，点击“Command Line Tools”，进行Install。因为Xcode其实默认集成了Git，只是没有安装。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br&gt;
+关于git安装的更多知识可参考&lt;a href=&quot;http://jingyan.baidu.com/article/72ee561ab93d2be16138dfed.html&quot; target=&quot;_blank&quot;&gt;《mac安装最新版本的git》&lt;/a&gt;和&lt;a href=&quot;http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+&quot; target=&quot;_blank&quot;&gt;《安装git》&lt;/a&gt;.&lt;br&gt;
+要是你想学习更多关于git的知识，那就去看&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot;&gt;大而全的Git教程&lt;/a&gt;.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;b&gt;一些基本的git命令：&lt;/b&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//创建一个仓库&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cellier&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cellier&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pwd&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Users&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cellier&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//通过git init命令把这个目录变成Git可以管理的仓库&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Initialized&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;empty&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;repository&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/Users/cellier/username.github.io /.git&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//要更新你的本地仓库至最新改动，执行:&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pull&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我们原先不是将github上的库clone到本地了吗，这个时候就需要使用&lt;code&gt;git init&lt;/code&gt;命令将这个文件夹目录设置为本地git可以管理的仓库。&lt;br&gt;
+关于ssh链接github可参考&lt;a href=&quot;http://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html&quot; target=&quot;_blank&quot;&gt;使用SSH密钥连接Github【图文教程】&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;第4步：在本地安装Jekyll进行项目预览&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+可参考下面两篇&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://justcoding.iteye.com/blog/1959737
+&quot; target=&quot;_blank&quot;&gt;使用Github Pages建独立博客&lt;/a&gt;*&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/u012844814/article/details/28869997
+&quot; target=&quot;_blank&quot;&gt;Windows下运行jeklly,并在本地浏览Bootstrap文档&lt;/a&gt;*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;特殊问题及解决方案&lt;/h3&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;p&gt;解决gem install jekyll 运行无法知道的问题&lt;/dt&gt;
+  &lt;dd&gt;&lt;p&gt;&lt;b&gt;在代码  gem install jekyll    前加   sudo，在代码后加-V可看到安装详情过程（mac x os）&lt;/b&gt;&lt;/dd&gt;
+&lt;dt&gt;&lt;p&gt;解决gem ruby install 很慢的问题&lt;/dt&gt;
+  &lt;dd&gt;&lt;p&gt;&lt;b&gt;换成&lt;a href=&quot;http://ruby.taobao.org/&quot; target=&quot;_blank&quot;&gt;淘宝镜像源&lt;/a&gt;&lt;/b&gt;&lt;/dd&gt;
+  &lt;dt&gt;&lt;p&gt;解决报错：Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.&lt;/dt&gt;
+  &lt;dd&gt;&lt;p&gt;&lt;b&gt;打开 Xcode 会弹出更新说明，点击同意，安装完就可以了&lt;/b&gt;&lt;/dd&gt;
+  &lt;dt&gt;&lt;p&gt;测试SSH是否正常工作&lt;/dt&gt;
+  &lt;dd&gt;&lt;p&gt;&lt;b&gt;参考&lt;a href=&quot;http://www.51cto.com/art/200511/12216.htm
+&quot; target=&quot;_blank&quot;&gt;测试SSH&lt;/a&gt;&lt;/b&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;添加ReadMore功能（文章摘要功能）&lt;/h3&gt;
+
+&lt;p&gt;&lt;br&gt;
+参考&lt;a href=&quot;http://blog.javachen.com/2013/08/31/my-jekyll-config/&quot; target=&quot;_blank&quot;&gt;JavaChen&amp;#39;s Blog&lt;/a&gt;和&lt;a href=&quot;http://truongtx.me/2013/05/01/jekyll-read-more-feature-without-any-plugin/&quot; target=&quot;_blank&quot;&gt;Trường TX blog&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;最终我的代码综合以上两位的方法,在index.html添加了如下图代码：&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://intorice.qiniudn.com/daima.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;给文章页面添加多说评论&lt;/h3&gt;
+
+&lt;p&gt;&lt;p&gt;1,注册&lt;a href=&quot;http://duoshuo.com/&quot; target=&quot;_blank&quot;&gt;多说&lt;/a&gt;账号，得到short_name （如图，cellier-me就是我的shortname）
+&lt;br&gt;&lt;br&gt;
+&lt;img src=&quot;http://intorice.qiniudn.com/shortname.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;2,将生成的多说代码复制，找到仓库的_layouts文件夹下的post.html文档，使用代码编辑器打开，将多说代码粘贴到&lt;code&gt;{ { content } },&amp;lt;/div&amp;gt;&lt;/code&gt;的下面，对了，请养成随时Ctrl+S进行文档编辑保存的习惯
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;3,找到仓库里的_config.yml文档，代码编辑器打开，贴入如下代码
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+comments :&lt;br&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;provider : duoshuo&lt;br&gt;
+ &amp;nbsp;&amp;nbsp;&amp;nbsp; duoshuo : &lt;br&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;short&lt;em&gt;name : 你的short&lt;/em&gt;name
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+- 更多关于多说设置的内容可参考&lt;a href=&quot;http://beeder.me/2014/09/08/add-duoshuo-to-jekyllbootstrap/&quot; target=&quot;_blank&quot;&gt;beeder同学写的&lt;/a&gt;以及&lt;a href=&quot;http://havee.me/internet/2013-07/add-duoshuo-commemt-system-into-jekyll.html&quot; target=&quot;_blank&quot;&gt;havee同学写的&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+- 而关于多说的CSS样式设置可参考&lt;a href=&quot;http://www.mmuuii360.com/duoshuo-css.html&quot; target=&quot;_blank&quot;&gt;多说评论框css样式表自定义&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+- 样式代码贴入多说官网-个人-网站设置-基本设置里即可（下图位置）
+&lt;br&gt;&lt;br&gt;
+&lt;img src=&quot;http://intorice.qiniudn.com/weqrqwr.png&quot; alt=&quot;&quot;&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h6&gt;常用HTML代码：&lt;/h6&gt;
+
+&lt;p&gt;&lt;code&gt;
+// 新建标签页打开链接&lt;br&gt;
+&lt;code&gt;&amp;lt;a href=&amp;quot;此处填写要跳转的网址&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;链接文字&amp;lt;/a&amp;gt;&lt;/code&gt;
+&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;code&gt;
+// 插入图片：width 设置图片宽度；height 设置图片高度&lt;br&gt;
+&lt;code&gt;&amp;lt;img src=&amp;quot;图片路径地址&amp;quot; width=&amp;quot;165&amp;quot; height=&amp;quot;60&amp;quot; /&amp;gt;&lt;/code&gt;
+&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;code&gt;
+// 插入图片并居中&lt;br&gt;
+&lt;code&gt;&amp;lt;div align=center&amp;gt;&amp;lt;img src=&amp;quot;图片网址&amp;quot; width=&amp;quot;500&amp;quot; /&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;br&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h6&gt;常用HTML标签&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;加粗字体&lt;/strong&gt;, 使用 &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;, 使用 &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;标注, 像 &lt;abbr title=&quot;一种超文本标记语言&quot;&gt;HTML&lt;/abbr&gt; 使用的是标签&lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, 加上 &lt;code&gt;标注标题&lt;/code&gt; 来阐述被标注对象&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;引文, 像 &lt;cite&gt;&amp;mdash; 鲁迅&lt;/cite&gt;, 使用 &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;del&gt;删除线&lt;/del&gt; 使用标签 &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; 而&lt;ins&gt;下滑线&lt;/ins&gt; 则使用 &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;上标字 &lt;sup&gt;2B&lt;/sup&gt; 使用 &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; 而下标字 &lt;sub&gt;还是2B&lt;/sub&gt;则用&lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;tt&gt;打字机体&lt;/tt&gt;使用&lt;code&gt;&amp;lt;tt&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;u&gt;下划线&lt;/u&gt;还可使用&lt;code&gt;&amp;lt;u&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;特殊符号&lt;code&gt;&amp;amp;nbsp;&lt;/code&gt;表示&amp;nbsp;空格&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;big&gt;大字体&lt;/big&gt;使用&lt;code&gt;&amp;lt;big&amp;gt;&lt;/code&gt;，&lt;small&gt;小字体&lt;/small&gt;使用&lt;code&gt;&amp;lt;small&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;b&gt;最后，我想说的是：&lt;/b&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“没有十全十美的教程，如同不存在彻头彻尾的绝望”（改自村上春树语）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;重要的是保持住一颗捣腾不安的心以及对知识的渴望与&lt;a href=&quot;https://www.baidu.com&quot; target=&quot;_blank&quot;&gt;找寻&lt;/a&gt;.....&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>考拉社区的2015年</title>
+   <link href="http://cellier.me/2015/01/02/%E8%80%83%E6%8B%89%E7%A4%BE%E5%8C%BA%E7%9A%842015%E5%B9%B4/"/>
+   <updated>2015-01-02T00:00:00+08:00</updated>
+   <id>http://cellier.me/2015/01/02/考拉社区的2015年</id>
+   <content type="html">&lt;!-- more --&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;在这个时代快速迭代的背景下，产品之间的竞争淘汰越发紧张，论速度你没别人的快、论精致你没别人楚楚动人....这种感受就像是自己天生吃屎一般,所以我们只能讲讲情感的故事...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;
+小A今年毕业，进入一家企业工作半年左右，单身，在公司附近的小区里租了一单间，共用卫生间的那种。今年9月份的一个周末，在他所居住的小区门口有一款叫考拉社区的应用正在推广，下载就用考拉玩偶，在考拉社区工作人员的引导下，他下载了这款名叫考拉社区的应用，他发现，在应用里面的虚拟小区已经入驻了有近五六十个人。他发了一条打招呼的信息，发表在应用里面的邻里圈板块，很快有人来友好性地回应，还有人对他的信息进行了点赞，他点开小区主页，里面有很多邻居，他分别点击各个头像进入邻居们的个人主页，发现有不少是和他一样刚毕业工作居住在这小区，有的人在个人主页晒自己养的花花草草，有的人晒出了自己养的宠物。&lt;/p&gt;
+
+&lt;p&gt;后来的某一天，有一位叫“猫小姐”的用户在小区的丢失板块发布了一条悬赏信息，内容是她的猫丢了，还附带上了猫平时玩耍嬉戏的照片，小A看到照片先是一惊，因为他刚下班在楼道里看到过一只颜色花纹很相似的猫，他马上在那条内容下留言，然后下楼去找...后来猫在楼下的茶水间被找到，那个“猫姑娘”领走了猫，对小A表示感谢，小A没收考拉社区上的悬赏金，他把账款退回，并私信留言道：猫小姐，你笑起来真好看......&lt;/p&gt;
+
+&lt;p&gt;再后来，考拉社区推出了群组功能，可帮助附近的邻居方便地进行线上组织各种类型的活动，小A加入了一个名叫“穷工作也不能穷运动”的群组，群组成员在每天晚上八点都会在小区附近的黄河公园集合，一起慢跑，其中有很多同小A一样的年轻人，小A也很快融入了这个群体...他也拉上了平时喜欢宅在家里的猫小姐，年轻人之间经常会聊一些前沿的科技话题，小A对猫小姐说：你知道吗？考拉社区也出智能手环了，就叫考拉跑，挺可爱的。然后他掏出了经过自己包装过的礼物，向猫小姐说到：送给你。&lt;/p&gt;
+
+&lt;p&gt;那一天晚上空气很清爽，天上的星星清澈得像是要掉下来一般，考拉社区通过小A手臂上的智能环，记录下了他紧张的心率...从此，猫小姐和小A在考拉社区里互动得更加频繁了，他们会仅互相可见地po一些照片，也会无聊地将对方所发的所有动态都点一遍赞...
+&lt;br&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h6&gt;&lt;strong&gt;从产品故事的遐想返回，我想说说关于考拉产品本身：&lt;/strong&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;从八月初入职到现在已经满了五个月份，从原来的看着考拉社区从无到有，到现在有责任和义务对其进行影响...可以说，我见证了考拉社区的成长，考拉社区也同样见证了我的成长。要说我对考拉社区在2015年的一个期待，大概是一个理念：“&lt;em&gt;考拉社区以人为中心&lt;/em&gt;”。
+&lt;br&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;small&gt;互联网的本质是工具，工具的本质是提升人类的效率，而一个足够好的工具，在提升人类工作或者活动效率的同时，更是会提升了人与人间情感沟通效率.比如微信红包、iWatch的感应他人心跳功能...&lt;/small&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在这个“快”如闪电的时代，提升社会生产效率以及情感沟通效率成为必然的产品趋势，怎样让自己的产品在&lt;strong&gt;工具属性/社交属性/商品属性&lt;/strong&gt;三者之间达到平衡且相互促进是十分困难而又必须去做的事，如果考拉想成为平台级产品，那么“欢迎服务，抵制营销”的理念还是需要借鉴的。&lt;/p&gt;
+
+&lt;p&gt;如果问我，我希望考拉是个怎样的产品，那么我眼下就有一个需求，我自己的需求：第一次在上海过冬，我八月份买的被子，在考虑不周的情况下，导致我现在天天晚上被冻醒，一到白天阳光升起变得暖和时，又常常忘记夜晚的“冻楚”...其实在浙江的老姐早就说要给我寄被子，我想想还要在公司收被子这样的物体实在有些尴尬，就没让老姐邮寄，而自己买呢，想想实在不合算，因为自己的工作还不是很稳定，有些东西能省则省，这也符合自己一贯来的极简主义生活方式（好牵强的说法...就是穷而已）,今晚坐在着写东西时，实在冷得要命，于是还是淘宝上买了睡袋，但不知什么时候能到...这几天是必然还要挨冻了。其实，大部分稳定居住的人家家里都会有多余的被子常年在高层柜子中“尘封”（至少我家里是的），是极大的资源浪费，而这种资源其实是可以被利用的，有其持续的价值性，比如以低价卖给同小区的像我这种外来务工人员....目前的情况是，信息不对称，或者小区居民没想到还有这么一个卖多余被子的场景！&lt;/p&gt;
+
+&lt;p&gt;说到这，大概就是想考拉社区能成为一个个小区场景发生的虚拟平台，但又能实实在在使人们能在线下去交易、沟通、联系...&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h6&gt;&lt;strong&gt;版本里程碑设想&lt;/strong&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br&gt;
+将考拉社区分为社交和服务两大块内容：
+&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;p&gt;版本&lt;/th&gt;
+      &lt;th&gt;&lt;p&gt;社交&lt;/th&gt;
+      &lt;th&gt;&lt;p&gt;服务&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;V1.5&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;个人资料/个人动态&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;接入基本物业服务&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;V2.0&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;私信或留言功能/小区主页/频道定制化&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;物业玩法完善/线下福利多多/买菜&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;V3.0&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;群组/模块化频道/信息内容增加&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;打通商店系统生态圈&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+       &lt;td&gt;&lt;p&gt;V4.0&lt;/td&gt;
+       &lt;td&gt;&lt;p&gt;增加分享内容功能/实名认证/用户等级&lt;/td&gt;
+       &lt;td&gt;&lt;p&gt;开店功能加强/引入自然用户跑腿机制&lt;/td&gt;
+     &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;V...&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;...&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;...&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;所有的一切围绕的目标是：让考拉社区能成为维系邻居生活及情感的中转站&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;更多关于考拉这款产品，可去往&lt;a href=&quot;http://www.kaola.mobi/&quot; target=&quot;_blank&quot;&gt;考拉社区&lt;/a&gt;进行查看&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

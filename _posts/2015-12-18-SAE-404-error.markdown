@@ -1,0 +1,9 @@
+---
+layout: post
+title:  解决SAE部署Java应用访问后台报404
+date:   2015-12-18
+---
+
+<p class="intro"><span class="dropcap">昨</span>天VPS到期了，没有续期的打算，于是准备把网站转移到SAE，部署过程一帆风顺，网站首页也成功进入，以为大功告成的时候，访问要用到后台服务的页面时，404 ERROR！</p>
+
+<p class="intro">我在本地运行没有问题，在网上查了下，发现好多人都有类似问题没得到解决，一般回答包括去掉servlet_api.jar、更换编译jdk版本、应用名称不一致...etc，捣鼓了半天还是没解决。既然本地都没问题，那么SAE为什么访问不了后台servlet？又仔细检查了xml配置，看不出什么问题，最后，我怀疑是SAE默认的context root是“/”而不是“/APPNAME”,我把SAE访问的地址栏前面的应用名去掉，直接/get?xxx试试，果然没有404了，虽然还是报503错误，不过根源已经找到就基本解决了，把本地源码所有“/appname/...”改成“/...”，然后把context root改成“/”，Eclipse修改context root:Properties—>Web Project Setting，重新编译上传，打开网站，正常运行了。</p>

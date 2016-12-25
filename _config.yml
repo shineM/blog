@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            shineMicroxy
+tagline:          ''
+description:      '『The most beautiful words in life is：It works！』'
+url:              http://danlvse.com
+
+author:
+  name:           'Xinyuan'
+  email:          zhongxinyuann@gmail.com
+
+paginate:      6
+
+# Custom vars
+version:          0.0.3
+
+# Comments
+
+comments :
+    provider : duoshuo
+    duoshuo :
+          short_name : zhong
