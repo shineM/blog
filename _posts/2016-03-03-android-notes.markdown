@@ -4,9 +4,9 @@ title:  近期Android学习笔记
 date:   2016-03-03
 ---
 
-<p class="intro"><span class="dropcap">好</span>久没更新博客了，写博客确实能把学到的知识更系统地消化一遍，但是实在是耗时间。最近Android学习进入了痴迷的状态，下班时间和周末基本泡在了Android Studio里面，成就感可能就是动力的来源吧，经常为解决了一个小bug、实现了一个小动画而激动一小会儿。嗯，学习贵在坚持！</p>
+<p class="intro"><span class="dropcap">好</span>久没更新博客了，写博客确实能把学到的知识更系统地消化一遍，但是实在是耗时间。嗯，学习贵在坚持！</p>
 
-<p>这里记录一下近期的Android学习笔记，大多数来源于平时记录在印象笔记里面的碎片，可能太基础了，算是温习一遍吧</p>
+<p>这里记录一下近期的Android学习笔记，大多数来源于平时记录在印象笔记里面的碎片，部分内容比较基础，算是温习一遍吧</p>
 
 #### RecyclerView上拉加载更多数据的实现
 写一个继承自RecyclerView.OnScrollListener滑动监听
