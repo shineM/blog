@@ -7,9 +7,9 @@ permalink: /about/
 
 Find me in these places:
 - Twitter: shineMicroxy
-	- GitHub:shineM
-	- Weibo:shineMicroxy
-	- Instagram: zhong_xinyuan
+- GitHub:shineM
+- Weibo:shineMicroxy
+- Instagram: zhong_xinyuan
 
 {% endhighlight %}
 
