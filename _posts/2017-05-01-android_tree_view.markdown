@@ -10,7 +10,7 @@ date:   2017-05-01
 
    性能不好当然得用性能好的方式解决，RecyclerView就是我们的主角，把所有节点都视为RecyclerView的一个Item，这样就能做到无论树的节点数量多大，深度有多深，都能回收利用ItemView。经过一周的改造和优化，目前该控件基本能满足一般场景的树形控件需求。
 先看效果：
-<img src="{{ '/public/img/tree_demo.jpg' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/public/img/tree_view_demo.jpg' | prepend: site.baseurl }}" alt="">
 
 #### 实现详解
 先看基本类TreeNode：
