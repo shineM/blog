@@ -54,151 +54,164 @@ public class TreeNode {
 {% endhighlight %}
 树节点的基本样子，没啥好说的，只是要注意addChild的时候不光要add，还得顺便把child的parent赋值。接下来看TreeView类：
 {% highlight java %}
-public class TreeView implements SelectableTreeAction {
-private TreeNode root;
+public class TreeView implements SelectableTreeAction {  
+    private TreeNode root;  
+  
+    private Context context;  
+  
+    private BaseNodeViewFactory baseNodeViewFactory;  
+  
+    private RecyclerView rootView;  
+  
+    private TreeViewAdapter adapter;  
 
-private Context context;
+//省略部分代码  
+    public TreeView(@NonNull TreeNode root, @NonNull Context context,@NonNull BaseNodeViewFactory baseNodeViewFactory) {  
+        this.root = root;  
+        this.context = context;  
+        this.baseNodeViewFactory = baseNodeViewFactory;  
+        if (baseNodeViewFactory == null) {  
+            throw new IllegalArgumentException("You must assign a BaseNodeViewFactory!");  
+        }  
+    }  
+  
+    public View getView() {  
+        if (rootView == null) {  
+            this.rootView = buildRootView();  
+        }  
+  
+        return rootView;  
+    }  
+  
+    @NonNull  
+    private RecyclerView buildRootView() {  
+        RecyclerView recyclerView = new RecyclerView(context);  
+        //省略部分代码  
+  
+		recyclerView.setLayoutManager(new LinearLayoutManager(context));  
+        adapter = new TreeViewAdapter(context, root, baseNodeViewFactory);  
+        recyclerView.setAdapter(adapter);  
+        return recyclerView;  
+    }  
+  
+    @Override  
+    public void expandAll() {  
+        if (root == null) {  
+            return;  
+        }  
+        TreeHelper.expandAll(root);  
+  
+        refreshTreeView();  
+    }  
+  
+  
+    private void refreshTreeView() {  
+        if (rootView != null) {  
+            ((TreeViewAdapter) rootView.getAdapter()).refreshView();  
+        }  
+    }  
+  
+    @Override  
+    public void expandNode(TreeNode treeNode) {  
+        adapter.expandNode(treeNode);  
+    }  
+  
+    @Override  
+    public void expandLevel(int level) {  
+        TreeHelper.expandLevel(root, level);  
+  
+        refreshTreeView();  
+    }
 
-private BaseNodeViewFactory baseNodeViewFactory;
-
-private RecyclerView rootView;
-
-private TreeViewAdapter adapter;
-
-//省略部分代码
-
-public TreeView(@NonNull TreeNode root, @NonNull Context context,@NonNull BaseNodeViewFactory baseNodeViewFactory) {
-this.root = root;
-this.context = context;
-this.baseNodeViewFactory = baseNodeViewFactory;
-if (baseNodeViewFactory == null) {
-throw new IllegalArgumentException("You must assign a BaseNodeViewFactory!");
-}
-}
-
-public View getView() {
-if (rootView == null) {
-this.rootView = buildRootView();
-}
-return rootView;
-}
-
-@NonNull
-private RecyclerView buildRootView() {
-RecyclerView recyclerView = new RecyclerView(context);
-//此处省略部分代码		
-recyclerView.setLayoutManager(new LinearLayoutManager(context));
-adapter = new TreeViewAdapter(context, root, baseNodeViewFactory);
-recyclerView.setAdapter(adapter);
-return recyclerView;
-}
-
-@Override
-public void expandAll() {
-if (root == null) {
-return;
-}
-TreeHelper.expandAll(root);
-refreshTreeView();
-}
-
-
-private void refreshTreeView() {
-if (rootView != null) {
-((TreeViewAdapter) rootView.getAdapter()).refreshView();
-}
-}
-
-@Override
-public void expandNode(TreeNode treeNode) {
-adapter.expandNode(treeNode);
-}
 //其他方法省略
 }
 {% endhighlight %}
 这是TreeView的直接操作类，外部的一切动作都通过TreeView转接。TreeView的创建必须传入一个BaseNodeViewFactory，这个工厂用来根据level得到每一级的BaseNodeViewBinder，稍后会分析这个类，然后创建一个RecyclerView作为rootView。TreeView包含了展开、收起、选择等全部的方法，但他只负责转接，具体实现细节全交给了TreeHelper和Adapter,那我们就先进入主角Adapter：
 {% highlight java %}
-public class TreeViewAdapter extends RecyclerView.Adapter {
-
-private Context context;
-private TreeNode root;
-private List\<TreeNode\> expandedNodeList;
-private BaseNodeViewFactory baseNodeViewFactory;
-private View EMPTY_PARAMETER;
-public TreeViewAdapter(Context context, TreeNode root,
-   @NonNull BaseNodeViewFactory baseNodeViewFactory) {
-this.context = context;
-this.root = root;
-this.baseNodeViewFactory = baseNodeViewFactory;
-this.EMPTY_PARAMETER = new View(context);
-this.expandedNodeList = new ArrayList\<\>();
-
-buildExpandedNodeList();
-}
-
-private void buildExpandedNodeList() {
-expandedNodeList.clear();
-for (TreeNode child : root.getChildren()) {
-insertNode(expandedNodeList, child);
-}
-}
-
-private void insertNode(List\<TreeNode\> nodeList, TreeNode treeNode) {
-nodeList.add(treeNode);
-if (!treeNode.hasChild()) {
-return;
-}
-if (treeNode.isExpanded()) {
-for (TreeNode child : treeNode.getChildren()) {
-insertNode(nodeList, child);
-}
-}
-}
-
-@Override
-public int getItemViewType(int position) {
-return expandedNodeList.get(position).getLevel();
-}
-
-@Override
-public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int level) {
-View view = LayoutInflater.from(context).inflate(baseNodeViewFactory
-.getNodeViewBinder(EMPTY_PARAMETER, level).getLayoutId(), parent, false);
-
-return baseNodeViewFactory.getNodeViewBinder(view, level);
-}
-
-@Override
-public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
-final View nodeView = holder.itemView;
-final TreeNode treeNode = expandedNodeList.get(position);
-final BaseNodeViewBinder viewBinder = getNodeBinder(treeNode);
-
-if (viewBinder.getToggleTriggerViewId() != 0) {
-View triggerToggleView = nodeView.findViewById(viewBinder.getToggleTriggerViewId());
-
-if (triggerToggleView != null) {
-triggerToggleView.setOnClickListener(new View.OnClickListener() {
-@Override
-public void onClick(View v) {
-onNodeToggled(treeNode);
-viewBinder.onNodeToggled(nodeView, treeNode, treeNode.isExpanded());
-}
-});
-}
-} 
-//省略部分代码
-viewBinder.bindView(nodeView, treeNode);
-}
-
-private void onNodeToggled(TreeNode treeNode) {
-treeNode.setExpanded(!treeNode.isExpanded());
-if (treeNode.isExpanded()) {
-expandNode(treeNode);
-} else {
-collapseNode(treeNode);
-}
-}
+public class TreeViewAdapter extends RecyclerView.Adapter {  
+  
+    private Context context;  
+    private TreeNode root;  
+    private List\<TreeNode\> expandedNodeList;  
+	private BaseNodeViewFactory baseNodeViewFactory;  
+	private View EMPTY_PARAMETER;  
+  
+    public TreeViewAdapter(Context context, TreeNode root,  
+                           @NonNull BaseNodeViewFactory baseNodeViewFactory) {  
+        this.context = context;  
+        this.root = root;  
+        this.baseNodeViewFactory = baseNodeViewFactory;  
+  
+        this.EMPTY_PARAMETER = new View(context);  
+        this.expandedNodeList = new ArrayList\<\>();  
+  
+        buildExpandedNodeList();  
+    }  
+  
+    private void buildExpandedNodeList() {  
+        expandedNodeList.clear();  
+  
+        for (TreeNode child : root.getChildren()) {  
+            insertNode(expandedNodeList, child);  
+        }  
+    }  
+  
+    private void insertNode(List\<TreeNode\> nodeList, TreeNode treeNode) {  
+        nodeList.add(treeNode);  
+  
+        if (!treeNode.hasChild()) {  
+            return;  
+        }  
+        if (treeNode.isExpanded()) {  
+            for (TreeNode child : treeNode.getChildren()) {  
+                insertNode(nodeList, child);  
+            }  
+        }  
+    }  
+  
+    @Override  
+    public int getItemViewType(int position) {  
+        return expandedNodeList.get(position).getLevel();  
+    }  
+  
+    @Override  
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int level) {  
+        View view = LayoutInflater.from(context).inflate(baseNodeViewFactory  
+                .getNodeViewBinder(EMPTY_PARAMETER, level).getLayoutId(), parent, false);  
+  
+        return baseNodeViewFactory.getNodeViewBinder(view, level);  
+    }  
+  
+    @Override  
+    public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {  
+        final View nodeView = holder.itemView;  
+        final TreeNode treeNode = expandedNodeList.get(position);  
+        final BaseNodeViewBinder viewBinder = getNodeBinder(treeNode);  
+//省略部分代码  
+        if (viewBinder.getToggleTriggerViewId() != 0) {  
+            View triggerToggleView = nodeView.findViewById(viewBinder.getToggleTriggerViewId());  
+  
+            if (triggerToggleView != null) {  
+                triggerToggleView.setOnClickListener(new View.OnClickListener() {  
+                    @Override  
+                    public void onClick(View v) {  
+                        onNodeToggled(treeNode);  
+                        viewBinder.onNodeToggled(nodeView, treeNode, treeNode.isExpanded());  
+                    }  
+                });  
+            }  
+        }   
+        viewBinder.bindView(nodeView, treeNode);  
+    }  
+    private void onNodeToggled(TreeNode treeNode) {  
+        treeNode.setExpanded(!treeNode.isExpanded());  
+  
+        if (treeNode.isExpanded()) {  
+            expandNode(treeNode);  
+        } else {  
+            collapseNode(treeNode);  
+        }  
+    }
 
 public void expandNode(TreeNode treeNode) {  
     if (treeNode == null) {  
@@ -234,24 +247,25 @@ Adapter中用一个expandedNodeList存储当前可见的节点（包含屏幕外
 还有一个和Adapter紧密相关的BaseNodeViewBinder类，代码如下：
 
 {% highlight java %}
-public abstract class BaseNodeViewBinder extends RecyclerView.ViewHolder {
-
-public BaseNodeViewBinder(View itemView) {
-super(itemView);
+public abstract class BaseNodeViewBinder extends RecyclerView.ViewHolder {  
+  
+    public BaseNodeViewBinder(View itemView) {  
+        super(itemView);  
+    }  
+  
+    public abstract int getLayoutId();
+  
+    public abstract void bindView(View view, TreeNode treeNode);  
+  
+    public int getToggleTriggerViewId() {  
+        return 0;  
+    }  
+  
+    public void onNodeToggled(View item, TreeNode treeNode, boolean expand) {  
+        //empty  
+    }  
 }
 
-public abstract int getLayoutId();
-
-public abstract void bindView(View view, TreeNode treeNode);
-
-public int getToggleTriggerViewId() {
-return 0;
-}
-
-public void onNodeToggled(View item, TreeNode treeNode, boolean expand) {
-//empty
-}
-}
 {% endhighlight %}
 
 BaseNodeViewBinder继承自ViewHolder，该类不光是一个ViewHolder,还包含了CreateViewHolder（拿到layoutId,具体过程还是在Adapter中进行），BindViewHolder的职责，可能你会觉得职责不够单一，但作为使用者来说清晰和简单就够了，因为使用者只用关心我的每一层级的节点布局是哪个、我该怎么把数据绑定到节点上，具体你这个类内部在干啥我根本不关注。另外还有两个不是必须实现的方法，getToggleTriggerViewId用来指定你想要点击触发展开收起操作的View，如果不指定默认是点击全部区域，当展开收起之后你需要做其他事就实现onNodeToggled方法。BaseNodeViewBinder还有一个子类CheckableNodeViewBinder，如果需要用到选择功能实现它就好了。
