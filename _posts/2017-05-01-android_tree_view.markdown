@@ -271,12 +271,12 @@ public abstract class BaseNodeViewBinder extends RecyclerView.ViewHolder {
 BaseNodeViewBinder继承自ViewHolder，该类不光是一个ViewHolder,还包含了CreateViewHolder（拿到layoutId,具体过程还是在Adapter中进行），BindViewHolder的职责，可能你会觉得职责不够单一，但作为使用者来说清晰和简单就够了，因为使用者只用关心我的每一层级的节点布局是哪个、我该怎么把数据绑定到节点上，具体你这个类内部在干啥我根本不关注。另外还有两个不是必须实现的方法，getToggleTriggerViewId用来指定你想要点击触发展开收起操作的View，如果不指定默认是点击全部区域，当展开收起之后你需要做其他事就实现onNodeToggled方法。BaseNodeViewBinder还有一个子类CheckableNodeViewBinder，如果需要用到选择功能实现它就好了。
 
 #### 如何使用
-##### 添加依赖
+**添加依赖**
 {% highlight java %}
 compile 'me.texy.treeview:treeview_lib:1.0.1'
 {% endhighlight %}
 
-##### 实现BaseNodeViewBinder
+**实现BaseNodeViewBinder**
 Sample：
 {% highlight java %}
 public class FirstLevelNodeViewBinder extends BaseNodeViewBinder {  
@@ -304,7 +304,7 @@ ThirdLevelNodeViewBinder
 {% endhighlight %}
 
 如果需要用选择功能则继承自CheckableNodeViewBinder
-##### 实现BaseNodeViewFactory
+**实现BaseNodeViewFactory**
 Sample：
 {% highlight java %}
 public class MyNodeViewFactory extends BaseNodeViewFactory {  
@@ -324,7 +324,7 @@ public class MyNodeViewFactory extends BaseNodeViewFactory {
     }  
 }
 {% endhighlight %}
-##### 生成TreeView
+**生成TreeView**
 Sample:
 {% highlight java %}
 TreeNode root = TreeNode.root();
