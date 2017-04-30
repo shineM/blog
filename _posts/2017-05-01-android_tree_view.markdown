@@ -280,6 +280,7 @@ compile 'me.texy.treeview:treeview_lib:1.0.1'
 {% endhighlight %}
 
 **实现BaseNodeViewBinder**
+
 Sample：
 {% highlight java %}
 public class FirstLevelNodeViewBinder extends BaseNodeViewBinder {  
@@ -308,6 +309,7 @@ ThirdLevelNodeViewBinder
 
 如果需要用选择功能则继承自CheckableNodeViewBinder
 **实现BaseNodeViewFactory**
+
 Sample：
 {% highlight java %}
 public class MyNodeViewFactory extends BaseNodeViewFactory {  
@@ -328,6 +330,7 @@ public class MyNodeViewFactory extends BaseNodeViewFactory {
 }
 {% endhighlight %}
 **生成TreeView**
+
 Sample:
 {% highlight java %}
 TreeNode root = TreeNode.root();
