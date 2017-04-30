@@ -4,10 +4,11 @@ title:  利用RecyclerView打造高性能树形控件
 date:   2017-05-01
 ---
 
-<p class="intro"><span class="dropcap">前</span>段时间项目里需要大量使用树形结构的控件，由于开发周期的关系，第一时间去GitHub找了Star最多的库[https://github.com/bmelnychuk/AndroidTreeView]进行改造，该控件的原理很简单:View的结构和树形结构一致，每一个节点的View为一个LinearLayout,包含两个子View,第一个为自身，第二个为包裹子节点的ViewGroup。第一次显示TreeView的时候默认展开一级（当然也可以用expandAll方法展开全部），展开的逻辑就是遍历所有子节点，然后拿到ViewHolder进行添加，每一个节点持有一个ViewHolder,ViewHolder包含有View和渲染View的方法，第一次展开的时候根据ViewHolder渲染的方法创建出View，下次展开的时候就不用new了。好了，分析完这个控件之后来看看其中的优缺点，优点：结构简单，思路清晰，构造数据方便。缺点：性能差！性能差！性能差！当子节点数量达到50就能感觉到展开有明显卡顿，这一个缺点足以让我放弃了该控件，恰好这期迭代安排有变动，有一周时间用来重写这个部分。
-</p>
+  前段时间项目里需要大量使用树形结构的控件，由于开发周期的关系，第一时间去GitHub找了Star最多的库[AndroidTreeView][1]进行改造，该控件的原理很简单:View的结构和树形结构一致，每一个节点的View为一个LinearLayout,包含两个子View,第一个为自身，第二个为包裹子节点的ViewGroup。第一次显示TreeView的时候默认展开一级（当然也可以用expandAll方法展开全部），展开的逻辑就是遍历所有子节点，然后拿到ViewHolder进行添加，每一个节点持有一个ViewHolder,ViewHolder包含有View和渲染View的方法，第一次展开的时候根据ViewHolder渲染的方法创建出View，下次展开的时候就不用new了。
+   
+   好了，分析完这个控件之后来看看其中的优缺点，优点：结构简单，思路清晰，构造数据方便。缺点：性能差！性能差！性能差！当子节点数量达到50就能感觉到展开有明显卡顿，这一个缺点足以让我放弃了该控件，恰好这期迭代安排有变动，有一周时间用来重写这个部分。
 
- 性能不好当然得用性能好的方式解决，RecyclerView就是我们的主角，把所有节点都视为RecyclerView的一个Item，这样就能做到无论树的节点数量多大，深度有多深，都能回收利用ItemView。经过一周的改造和优化，目前该控件基本能满足一般场景的树形控件需求。
+   性能不好当然得用性能好的方式解决，RecyclerView就是我们的主角，把所有节点都视为RecyclerView的一个Item，这样就能做到无论树的节点数量多大，深度有多深，都能回收利用ItemView。经过一周的改造和优化，目前该控件基本能满足一般场景的树形控件需求。
 先看效果：
 <img src="{{ '/public/img/tree_demo.jpg' | prepend: site.baseurl }}" alt="">
 
@@ -241,8 +242,10 @@ return expandedNodeList == null ? 0 : expandedNodeList.size();
 }
 {% endhighlight %}
 Adapter中用一个expandedNodeList存储当前可见的节点（包含屏幕外的节点），所以每次刷新之前都得重新计算这个集合，buildExpandedNodeList在首次或者变动较大的时候才用到，其他情况刷新局部数据会节省很多开销。接着分析adapter的两个关键方法onCreateViewHolder和onBindViewHolder： 
-  onCreateViewHolder中根据BaseNodeViewBinder拿到layoutId，生成布局构BaseNodeViewBinder，这里是比较关键的部分，构造BaseNodeViewBinder必须传入View和Level，而View是用nodeViewBinder.getLayoutId()生成的，也就是要用的参数需要从结果中拿到，这里就形成了矛盾。仔细分析一下，这里我们只关注怎么拿到layoutId，只要成功构造出BaseNodeViewBinder完成任务，即使传入任意View也没有任何影响，因为真正的View是拿到layoutId之后生成的View，所以这里我们就传入了一个非空的new View(context)。
-  onBindViewHolder承担了部分bind的职责，负责处理展开收起点击事件和选择逻辑，其他的细节由使用者实现。这里简单分析点击展开的逻辑，展开一个节点分为两步：首先拿到展开后新增需要显示的数据，接着调用notifyItemRangeInserted刷新局部。关键在于第一步，这一步的计算是在TreeHelper中进行，之前的TreeView中也多次用到这个类，TreeHelper其实就是纯负责计算的类，展开收起，添加删除，选择计算，脏活累活全交给了它，里面的具体算法细节就不多分析，感兴趣可以自行查看。
+ 
+   onCreateViewHolder中根据BaseNodeViewBinder拿到layoutId，生成布局构BaseNodeViewBinder，这里是比较关键的部分，构造BaseNodeViewBinder必须传入View和Level，而View是用nodeViewBinder.getLayoutId()生成的，也就是要用的参数需要从结果中拿到，这里就形成了矛盾。仔细分析一下，这里我们只关注怎么拿到layoutId，只要成功构造出BaseNodeViewBinder完成任务，即使传入任意View也没有任何影响，因为真正的View是拿到layoutId之后生成的View，所以这里我们就传入了一个非空的new View(context)。
+  
+   onBindViewHolder承担了部分bind的职责，负责处理展开收起点击事件和选择逻辑，其他的细节由使用者实现。这里简单分析点击展开的逻辑，展开一个节点分为两步：首先拿到展开后新增需要显示的数据，接着调用notifyItemRangeInserted刷新局部。关键在于第一步，这一步的计算是在TreeHelper中进行，之前的TreeView中也多次用到这个类，TreeHelper其实就是纯负责计算的类，展开收起，添加删除，选择计算，脏活累活全交给了它，里面的具体算法细节就不多分析，感兴趣可以自行查看。
 
 还有一个和Adapter紧密相关的BaseNodeViewBinder类，代码如下：
 
@@ -338,7 +341,8 @@ View treeView = new TreeView(root, context, new MyNodeViewFactory()).getView();
 //add to view group where you want 
 {% endhighlight %}
 
-如果想了解更多细节或者改造使用可以在[GitHub][1]地址下载此项目，也欢迎提[Issue][2]。
+如果想了解更多细节或者改造使用可以在[GitHub][2]地址下载此项目，也欢迎提[Issue][3]。
 
-[1]:	https://github.com/shinem/TreeView
-[2]:	https://github.com/shinem/TreeView/issues
+[1]:	https://github.com/bmelnychuk/AndroidTreeView
+[2]:	https://github.com/shinem/TreeView
+[3]:	https://github.com/shinem/TreeView/issues
