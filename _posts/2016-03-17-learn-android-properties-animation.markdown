@@ -23,42 +23,42 @@ activity.getWindow().setSharedElementReturnTransition(myTransition);//myTransiti
 所以就是一个自定义transition的问题，API 21中给出了几种transition的实现，ChangeBounds、ChangeTransform、ChangeClipBounds、ChangeImageTransform，适用场景最多的就是ChangeBounds，因为一般两个共享元素的layout大小位置都会产生变化，这里我们也以ChangeBounds为父类，自定义一个Transition，实现一个transition需要实现三个方法：捕捉开始和结束状态的属性captureStartValues，captureEndValues，实现动画createAnimator，我们这里需要的状态属性有两个：颜色和角的弧度，颜色可以用Integer，那么弧度呢？我们可以通过圆角的半径（float）来描述这个弧度大小。属性确定了，我们需要构建一个带有这两个属性的drawable对象，我们创建一个CornerDialog类来承载这两个属性
 {% highlight java %}
 public class CornerDialog extends Drawable {  
-  
-    public static final Property\<CornerDialog, Integer\> PROPERTY_COLOR = new Property\<CornerDialog, Integer\>(Integer.class, "color") {  
+
+    public static final Property<CornerDialog, Integer> PROPERTY_COLOR = new Property<CornerDialog, Integer>(Integer.class, "color") {  
         @Override  
         public Integer get(CornerDialog object) {  
             return object.getColor();  
         }  
-  
+      
         @Override  
         public void set(CornerDialog object, Integer value) {  
             object.setColor(value);  
         }  
     };  
-    public static final Property\<CornerDialog, Float\> PROPERTY_RADIUS = new Property\<CornerDialog, Float\>(Float.class, "radius") {  
+    public static final Property<CornerDialog, Float> PROPERTY_RADIUS = new Property<CornerDialog, Float>(Float.class, "radius") {  
         @Override  
         public Float get(CornerDialog object) {  
             return object.getRadius();  
         }  
-  
+      
         @Override  
         public void set(CornerDialog object, Float value) {  
             object.setRadius(value);  
         }  
     };  
     private int color;  
-  
+      
     private float radius;  
-  
+      
     private Paint paint;  
-  
+      
     public CornerDialog(int color, float radius) {  
         this.color = color;  
         this.radius = radius;  
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);  
         paint.setColor(color);  
     }  
-  
+      
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)  
     @Override  
     public void draw(Canvas canvas) {  
@@ -66,36 +66,36 @@ public class CornerDialog extends Drawable {
 
 canvas.drawRoundRect(getBounds().left,getBounds().top,getBounds().right,getBounds().bottom,radius,radius,paint);  
     }  
-  
+
     @Override  
     public void setAlpha(int alpha) {  
         paint.setAlpha(alpha);  
         invalidateSelf();  
     }  
-  
+      
     @Override  
     public void setColorFilter(ColorFilter colorFilter) {  
         paint.setColorFilter(colorFilter);  
         invalidateSelf();  
     }  
-  
+      
     @Override  
     public int getOpacity() {  
         return paint.getAlpha();  
     }  
-  
+      
     public float getRadius() {  
         return radius;  
     }  
-  
+      
     public void setRadius(float radius) {  
         this.radius = radius;  
     }  
-  
+      
     public int getColor() {  
         return color;  
     }  
-  
+      
     public void setColor(int color) {  
         this.color = color;  
         paint.setColor(color);  
@@ -111,16 +111,16 @@ public void captureStartValues(TransitionValues transitionValues) {
     super.captureStartValues(transitionValues);  
     transitionValues.values.put(PROPERTY_COLOR, Color.TRANSPARENT);  
     transitionValues.values.put(PROPERTY_RADIUS, 2.0f);  
-  
+
 }  
-  
+
 @Override  
 public void captureEndValues(TransitionValues transitionValues) {  
     super.captureEndValues(transitionValues);  
     transitionValues.values.put(PROPERTY_COLOR, ContextCompat.getColor(transitionValues.view.getContext(), R.color.colorPrimary));  
     transitionValues.values.put(PROPERTY_RADIUS, (float) transitionValues.view.getWidth() / 2);  
 }  
-  
+
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)  
 @Override  
 public Animator createAnimator(ViewGroup sceneRoot, TransitionValues startValues, TransitionValues endValues) {  
@@ -132,7 +132,7 @@ public Animator createAnimator(ViewGroup sceneRoot, TransitionValues startValues
     Float startRadius = (Float) startValues.values.get(PROPERTY_RADIUS);  
     Integer endColor = (Integer) endValues.values.get(PROPERTY_COLOR);  
     Float endRadius = (Float) endValues.values.get(PROPERTY_RADIUS);  
-  
+      
     CornerDialog drawable = new CornerDialog(startColor, startRadius);  
     startValues.view.setBackground(drawable);
 //实现两个属性动画  
@@ -140,18 +140,18 @@ public Animator createAnimator(ViewGroup sceneRoot, TransitionValues startValues
     Animator radiusAnimator = ObjectAnimator.ofFloat(drawable, drawable.PROPERTY_RADIUS, endRadius);  
     if (endValues.view instanceof ViewGroup) {  
         ViewGroup viewGroup = (ViewGroup) endValues.view;  
-        for (int i = 0; i \< viewGroup.getChildCount(); i++) {  
+        for (int i = 0; i < viewGroup.getChildCount(); i++) {  
             View v = viewGroup.getChildAt(i);  
             v.animate().alpha(0f)  
                     .translationY(v.getHeight() / 3)  
                     .setDuration(50L)  
                     .setInterpolator(AnimationUtils.loadInterpolator(sceneRoot.getContext(), android.R.interpolator.fast_out_linear_in))  
                     .start();  
-  
+      
         }  
     }  
-  
-  
+
+
     AnimatorSet animatorSet = new AnimatorSet();  
     animatorSet.setDuration(300);  
     animatorSet.setInterpolator(AnimationUtils.loadInterpolator(sceneRoot.getContext(), android.R.interpolator.fast_out_slow_in));  
