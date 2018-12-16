@@ -9,6 +9,6 @@ Find me in these places:
 - Twitter:   shineMicroxy
 - GitHub:    shineM
 - Weibo:     shineMicroxy
-- Instagram: shineMicroxy
+- Instagram: shinem_zhong
 
 {% endhighlight %}

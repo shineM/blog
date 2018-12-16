@@ -98,7 +98,7 @@ public class TreeNode {
 
 	private TreeNode parent;  
 
-	private List\<TreeNode\> children;  
+	private List<TreeNode> children;  
 
 	private int index;  
 
@@ -110,7 +110,7 @@ public class TreeNode {
 
 	public TreeNode(Object value) {  
 	    this.value = value;  
-	    this.children = new ArrayList\<\>();  
+	    this.children = new ArrayList<>();  
 	}  
 	
 	public static TreeNode root() {  
@@ -209,7 +209,7 @@ public class TreeViewAdapter extends RecyclerView.Adapter {
 
 	private Context context;  
 	private TreeNode root;  
-	private List\<TreeNode\> expandedNodeList;  
+	private List<TreeNode> expandedNodeList;  
 	private BaseNodeViewFactory baseNodeViewFactory;  
 	private View EMPTY_PARAMETER;  
 	
@@ -220,7 +220,7 @@ public class TreeViewAdapter extends RecyclerView.Adapter {
 	    this.baseNodeViewFactory = baseNodeViewFactory;  
 	
 	    this.EMPTY_PARAMETER = new View(context);  
-	    this.expandedNodeList = new ArrayList\<\>();  
+	    this.expandedNodeList = new ArrayList<>();  
 	
 	    buildExpandedNodeList();  
 	}  
@@ -233,7 +233,7 @@ public class TreeViewAdapter extends RecyclerView.Adapter {
 	    }  
 	}  
 	
-	private void insertNode(List\<TreeNode\> nodeList, TreeNode treeNode) {  
+	private void insertNode(List<TreeNode> nodeList, TreeNode treeNode) {  
 	    nodeList.add(treeNode);  
 	
 	    if (!treeNode.hasChild()) {  
@@ -294,7 +294,7 @@ public void expandNode(TreeNode treeNode) {
     if (treeNode == null) {  
         return;  
     }  
-    List\<TreeNode\> additionNodes = TreeHelper.expandNode(treeNode, false);  
+    List<TreeNode> additionNodes = TreeHelper.expandNode(treeNode, false);  
     int index = expandedNodeList.indexOf(treeNode);  
       
     insertNodesAtIndex(index, additionNodes);  
@@ -304,7 +304,7 @@ public void collapseNode(TreeNode treeNode) {
     if (treeNode == null) {  
         return;  
     }  
-    List\<TreeNode\> removedNodes = TreeHelper.collapseNode(treeNode, false);  
+    List<TreeNode> removedNodes = TreeHelper.collapseNode(treeNode, false);  
     int index = expandedNodeList.indexOf(treeNode);  
       
     removeNodesAtIndex(index, removedNodes);  

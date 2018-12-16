@@ -35,7 +35,7 @@ date:   2018-12-16
 
 *LinearLayoutManager.java*
 
-`
+{% highlight java %}
 
 	int scrollBy(int dy, Recycler recycler, State state)  {
 	    //...
@@ -46,11 +46,11 @@ date:   2018-12-16
 	    //...
 	
 	}
-`
+{% endhighlight %}
 
 无论是首屏渲染还是滑动更新，最终都是走 updateLayoutState->fill 的流程，先看 *updateLayoutState*
 
-`
+{% highlight java %}
 
 	private void updateLayoutState(int layoutDirection, int requiredSpace, boolean canUseExistingSpace, State state) {
 	    //...
@@ -72,11 +72,11 @@ date:   2018-12-16
 	    this.mLayoutState.mScrollingOffset = scrollingOffset;
 	
 	}		
-`
+{% endhighlight %}
 
 *updateLayoutState* 简单来说就是算下可用空间还有多少，算完后交给 *fill* 去填充，看下 *fill* 的具体过程
 
-`
+{% highlight java %}
 
 	int fill(Recycler recycler, LinearLayoutManager.LayoutState layoutState, State state, boolean stopOnFocusable) {
 	    int start = layoutState.mAvailable;
@@ -100,11 +100,11 @@ date:   2018-12-16
 	    return start - layoutState.mAvailable;
 	
 	 }
-`
+{% endhighlight %}
 
 fill 就和方法名一样，填充 layout 直到占满为止，到这里其实和 ViewHolder 的创建回收复用关系都不大，继续跟进 layoutChunk 看
 
-`
+{% highlight java %}
 
 	void layoutChunk(Recycler recycler, State state, LinearLayoutManager.LayoutState layoutState, LinearLayoutManager.LayoutChunkResult result) {
  		// 去 Recycler 中取 View
@@ -125,12 +125,12 @@ fill 就和方法名一样，填充 layout 直到占满为止，到这里其实�
         this.layoutDecoratedWithMargins(view, left, top, right, bottom);
        	//...
     }
-`
+{% endhighlight %}
 
 *layoutChunk* 就是填充单个 ViewHolder 的过程，这里我们已经到了获取 ViewHolder 的入口了，下面测量宽高和 decorate 的步骤我们省领掉，直接进入正题 *next* 方法
 
 LayoutState.class
-`
+{% highlight java %}
 
 	View next(Recycler recycler) {
 	    if (this.mScrapList != null) {
@@ -143,11 +143,11 @@ LayoutState.class
 	
 	}
 
-`
+{% endhighlight %}
 
 进入 Recycler
 
-`
+{% highlight java %}
 
 	RecyclerView.ViewHolder tryGetViewHolderForPositionByDeadline(int position, boolean dryRun, long deadlineNs) {
 	    if (position >= 0 && position < RecyclerView.this.mState.getItemCount()) {
@@ -196,7 +196,7 @@ LayoutState.class
 	        return holder;
 	    }
 	}
-`
+{% endhighlight %}
 
 这个方法就是创建和复用的核心部分了，第一步从 scrap 或者 cache 缓存获取，scrap 缓存是还 attach 在 RecyclerView 上的 ViewHolder，滚动列表的时候会把当前所有可见的 ViewHolder 添加到 scrap 里面，紧接着会被拿出来直接用，而 cache 是一个默认大小为 2 的缓存空间，当有 ViewHolder 被滑出屏幕区域外一定距离，被被 recycle 然后加到 cache 里面，如果 cache 数量到达最大则会丢进 RecyclerPool；第二步先省略，我们一般不会设置 stableId；第三步，从自定义缓存获取，好了，终于到了我们想要的了，官方文档解释是让开发者自己决定缓存的策略，但我很少看到有应用的场景，那我们下面就开始试一下是否能实现我们激进的优化方案。 
 
@@ -210,7 +210,7 @@ LayoutState.class
 
 请求完数据的时候开始缓存 Holder
 
-`
+{% highlight java %}
 
 	 private void loadMoreData() {
 	    mIsLoading = true;
@@ -244,9 +244,9 @@ LayoutState.class
 	        }
 	    }).start();
 	}
-`
+{% endhighlight %}
 
-`
+{% highlight java %}
 
 ```
 public void cacheHoldersForDataList(RecyclerView recyclerView, List<Object> dataList) {
@@ -289,11 +289,11 @@ public void cacheHoldersForDataList(RecyclerView recyclerView, List<Object> data
 }
 ```
 
-`
+{% endhighlight %}
 
 接着就是让 Recycler 走到我们的自定义缓存逻辑了，这里的 position 不要直接用 mDataListForBind 去取，我们需要从原始的列表去拿正确的数据
 
-`
+{% highlight java %}
 
 ```
 @Nullable
@@ -305,12 +305,12 @@ public View getViewForPositionAndType(@NonNull RecyclerView.Recycler recycler, i
 
 ```
 
-`
+{% endhighlight %}
 
 具体代码和实现效果可以在[这里][1]查看。
 
 至此一个简单的 ViewCacheExtension 就完成了，此方案仅提供一个思路，不建议直接用到线上项目，列表优化的最佳实践依然是老老实实减少主线程的耗时操作。
 
-#### 
+
 
 [1]:	https://github.com/shineM/RecyclerViewCacheDemo
