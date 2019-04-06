@@ -8,14 +8,14 @@ permalink:        pretty
 # Setup
 title:            shineMicroxy
 tagline:          ''
-description:      '『Hi dude,my owner has no time to update me,please take me away！』'
+description:      '『Coding, Traveling, Thinking, Living』'
 url:              http://texy.me
 
 author:
   name:           'Xinyuan'
   email:          zhongxinyuann@gmail.com
 
-paginate:      6
+paginate:      10
 
 # Custom vars
 version:          0.0.3

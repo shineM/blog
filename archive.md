@@ -13,12 +13,10 @@ permalink: /archive/
 
 
 {% endif %}
-
+   
 <a href="{{ post.url }}" target="_self"> 
 
-{{ post.title }}
-
-<span class="pull-right">{{ post.date | date:'%m月%d日' }}</span> 
+{{ post.title }}<span class="pull-right">{{ post.date | date:'%m月%d日' }}</span>
 
 </a>
 
@@ -38,8 +36,6 @@ permalink: /archive/
 {% endunless %}
 
 <a href="{{ post.url }}" target="_self"> {{ post.title }}  <span class="pull-right">{{ post.date | date:'%m月%d日' }}</span>
-
-</a>
 
 {% endfor %}
 -->
