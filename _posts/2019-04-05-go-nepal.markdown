@@ -38,7 +38,7 @@ Let's party
 
 遨游在费瓦湖上空
 
-<img src="{{ '/public/img/paragliding' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/public/img/paragliding.png' | prepend: site.baseurl }}" alt="">
 
 ##### 结语
 
