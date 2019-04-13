@@ -6,8 +6,8 @@ permalink: /about/
 {% highlight javascript %}
 
 Find me in these places:
-- Twitter:   <a href="https://twitter.com/shineMicroxy">shineMicroxy</a>
-- GitHub:    <a href="https://github.com/shineM">shineM</a>
-- Instagram: <a href="https://www.instagram.com/shinem_zhong/">shinem_zhong</a>
+- Twitter:   [shineMicroxy](https://twitter.com/shineMicroxy)
+- GitHub:    [shineM](https://github.com/shineM)
+- Instagram: [shinem_zhong](https://www.instagram.com/shinem_zhong/)
 
 {% endhighlight %}
