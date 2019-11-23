@@ -26,20 +26,6 @@
 					<integer>2</integer>
 				</dict>
 			</dict>
-			<key>2015-11-27-Ajax.markdown</key>
-			<dict>
-				<key>explicitUnassignment</key>
-				<true/>
-				<key>firstUnassignment</key>
-				<real>576128545.83956206</real>
-				<key>lastModification</key>
-				<real>576128545.83956206</real>
-				<key>version</key>
-				<dict>
-					<key>53263b75eb8c86a2004e730313edb3f15f88952529c49bf2698d4772bb386441</key>
-					<integer>30</integer>
-				</dict>
-			</dict>
 			<key>2015-12-18-SAE-404-error.markdown</key>
 			<dict>
 				<key>lastModification</key>
@@ -80,20 +66,6 @@
 					<integer>2</integer>
 				</dict>
 			</dict>
-			<key>2016-03-03-android-notes.markdown</key>
-			<dict>
-				<key>explicitUnassignment</key>
-				<true/>
-				<key>firstUnassignment</key>
-				<real>576128545.92363501</real>
-				<key>lastModification</key>
-				<real>576128545.92363501</real>
-				<key>version</key>
-				<dict>
-					<key>53263b75eb8c86a2004e730313edb3f15f88952529c49bf2698d4772bb386441</key>
-					<integer>31</integer>
-				</dict>
-			</dict>
 			<key>2016-03-17-learn-android-properties-animation.markdown</key>
 			<dict>
 				<key>lastModification</key>
@@ -102,20 +74,6 @@
 				<dict>
 					<key>53263b75eb8c86a2004e730313edb3f15f88952529c49bf2698d4772bb386441</key>
 					<integer>22</integer>
-				</dict>
-			</dict>
-			<key>2016-06-24-how-activity-launched-and-showed.markdown</key>
-			<dict>
-				<key>explicitUnassignment</key>
-				<true/>
-				<key>firstUnassignment</key>
-				<real>576128511.58568299</real>
-				<key>lastModification</key>
-				<real>576128511.58568299</real>
-				<key>version</key>
-				<dict>
-					<key>53263b75eb8c86a2004e730313edb3f15f88952529c49bf2698d4772bb386441</key>
-					<integer>29</integer>
 				</dict>
 			</dict>
 			<key>2017-05-01-android_tree_view.markdown</key>
@@ -139,9 +97,6 @@
 			<string>2015-12-18-SAE-404-error.markdown</string>
 		</array>
 		<array>
-			<string>2016-03-03-android-notes.markdown</string>
-		</array>
-		<array>
 			<string>2016-02-15-java-initialization.markdown</string>
 		</array>
 		<array>
@@ -151,16 +106,10 @@
 			<string>2015-12-22-jsoup-crawl-java.markdown</string>
 		</array>
 		<array>
-			<string>2015-11-27-Ajax.markdown</string>
-		</array>
-		<array>
 			<string>2015-11-23-RSA-java.markdown</string>
 		</array>
 		<array>
 			<string>2017-05-01-android_tree_view.markdown</string>
-		</array>
-		<array>
-			<string>2016-06-24-how-activity-launched-and-showed.markdown</string>
 		</array>
 		<array>
 			<string>2016-03-17-learn-android-properties-animation.markdown</string>
@@ -173,7 +122,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>53263b75eb8c86a2004e730313edb3f15f88952529c49bf2698d4772bb386441</key>
-			<integer>33</integer>
+			<integer>35</integer>
 		</dict>
 	</dict>
 </dict>
