@@ -14,7 +14,7 @@ permalink: /archive/
 
 {% endif %}
    
-<a href="/post/{{ post.url }}" target="_self"> {{ post.title }} </a> <span class="pull-right">{{ post.date | date:'%m月%d日' }}</span>
+<a href="/blog{{ post.url }}" target="_self"> {{ post.title }} </a> <span class="pull-right">{{ post.date | date:'%m月%d日' }}</span>
 
 
 {% endfor %}
